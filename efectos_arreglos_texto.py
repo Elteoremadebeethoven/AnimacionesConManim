@@ -36,7 +36,7 @@ class FormulaColor2(Scene):
 
 class FormulaColor3(Scene): 
     def construct(self): #no usar siempre frac
-        texto = TexMobject("\\sqrt{","\\int_{","a}^","{b}","\\left(","\\frac{x}{y}","\\right)","dxa}")
+        texto = TexMobject("\\sqrt{","\\int_{","a}^","{b}","\\left(","\\frac{x}{y}","\\right)","dx}")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
         texto[2].set_color(GREEN)
@@ -50,13 +50,13 @@ class FormulaColor3(Scene):
 
 class FormulaColor3Mejorada(Scene): 
     def construct(self): #no usar siempre frac
-        texto = TexMobject("\\sqrt{","\\int_{","a}^","{b}","\\left(","\\frac{x}{y}","\\right)","dxa}")
+        texto = TexMobject("\\sqrt{","\\int_{","a}^","{b}","\\left(","\\frac{x}{y}","\\right)","dx.}")
         texto[0].set_color(RED)
-        texto[1].set_color(RED)
+        texto[1].set_color(BLUE)
         texto[2].set_color(GREEN)
         texto[3].set_color(YELLOW)
-        texto[4].set_color(WHITE)
-        texto[5].set_color(BLUE)
+        texto[4].set_color(PINK)
+        texto[5].set_color(ORANGE)
         texto[6].set_color(PURPLE)
         texto[7].set_color(MAROON)
         self.play(Write(texto))
@@ -66,11 +66,11 @@ class FormulaColor3Mejorada2(Scene):
     def construct(self): #no usar siempre frac
         texto = TexMobject("\\sqrt{","\\int_","{a}^","{b}","{\\left(","{x","\\over","y}","\\right)}","d","x",".}")
         texto[0].set_color(RED)
-        texto[1].set_color(RED)
+        texto[1].set_color(BLUE)
         texto[2].set_color(GREEN)
         texto[3].set_color(YELLOW)
-        texto[4].set_color(WHITE)
-        texto[5].set_color(BLUE)
+        texto[4].set_color(PINK)
+        texto[5].set_color(ORANGE)
         texto[6].set_color(PURPLE)
         texto[7].set_color(MAROON)
         texto[8].set_color(TEAL)
@@ -78,15 +78,15 @@ class FormulaColor3Mejorada2(Scene):
         self.play(Write(texto))
         self.wait(3)
 
-class FormulaColor3Mejorada3(Scene): 
+class FormulaColor4(Scene): 
     def construct(self): #no usar siempre frac
         texto = TexMobject("\\sqrt{","\\int_","{a","+","c}^","{b}","{\\left(","{x","\\over","y}","\\right)}","d","x",".}")
         texto[0].set_color(RED)
-        texto[1].set_color(RED)
+        texto[1].set_color(BLUE)
         texto[2].set_color(GREEN)
         texto[3].set_color(YELLOW)
-        texto[4].set_color(WHITE)
-        texto[5].set_color(BLUE)
+        texto[4].set_color(PINK)
+        texto[5].set_color(ORANGE)
         texto[6].set_color(PURPLE)
         texto[7].set_color(MAROON)
         texto[8].set_color(TEAL)
@@ -130,33 +130,27 @@ class For2Variables(Scene):
 
 class ColorPorLetras1(Scene):
 	def construct(self):
-		texto = TexMobject("{d","\\over","d","x","}","\\int_","{0}^","{","x","}","f(","x",")d","x")
+		texto = TexMobject("{d","\\over","d","x","}","\\int_","{a}^","{","x","}","f(","t",")d","t","=","f(","x",")")
 		texto.set_color_by_tex("x",RED)
 		self.play(Write(texto))
 		self.wait(2)
 
 class ColorPorLetras2(Scene): #explicar y modificar x por {x}
 	def construct(self):
-		texto = TexMobject("{d","\\over","d","x","}","\\int_","{0}^","{","x","}","f(","x",")d","x")
+		texto = TexMobject("{d","\\over","d","x","}","\\int_","{a}^","{","x","}","f(","t",")d","t","=","f(","x",")")
 		texto.set_color_by_tex("x",RED)
 		texto[6].set_color(RED)
 		texto[8].set_color(WHITE)
 		self.play(Write(texto))
 		self.wait(2)
 
-class ChecaTexto(Scene):
-	def construct(self):
-		texto = TexMobject("{d","\\over","d","x","}","\\int_","{0}^","{","x","}","f(","x",")d","x")
-		self.add(texto[2])
-		self.wait(3)
-
-class Resaltado1v1(Scene): 
+class Resaltado(Scene): 
     def construct(self):
     	formula = TexMobject("\\lim_{x\\to\\infty} \\frac{1}{x}=0")
     	self.play(Write(formula))
     	self.wait(3)
 
-class Resaltado1v2(Scene): 
+class ResaltadoV1(Scene): 
     def construct(self):
     	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
     	self.play(Write(formula))
@@ -168,7 +162,21 @@ class Resaltado1v2(Scene):
     		)
     	self.wait(3)
 
-class Resaltado1v3(Scene): 
+class ResaltadoV2(Scene): 
+    def construct(self):
+        formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
+        self.play(Write(formula))
+        self.wait(0.5)
+        for i in [0,8]:
+            texto = formula[i]
+            self.play(
+                    texto.set_color, YELLOW,
+                    texto.scale_in_place, 1.2,
+                    rate_func = there_and_back,
+                )
+        self.wait(3)
+
+class ResaltadoV3(Scene): 
     def construct(self):
     	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
     	self.play(Write(formula))
@@ -186,7 +194,7 @@ class Resaltado1v3(Scene):
     		)
     	self.wait(3)
 
-class Resaltado1v4(Scene): 
+class ResaltadoV4(Scene): 
     def construct(self):
     	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
     	self.play(Write(formula))
@@ -202,7 +210,7 @@ class Resaltado1v4(Scene):
     		)
     	self.wait(3)
 
-class Resaltado1v5(Scene): 
+class ResaltadoV5(Scene): 
     def construct(self):
     	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
     	self.play(Write(formula))
@@ -237,27 +245,13 @@ class Resaltado1v5(Scene):
 	    		)
     	self.wait(3)
 
-class Resaltado1v6(Scene): 
-    def construct(self):
-    	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
-    	self.play(Write(formula))
-    	self.wait(0.5)
-    	for i in [0,8]:
-    		texto = formula[i]
-    		self.play(
-    				texto.set_color, YELLOW,
-    				texto.scale_in_place, 1.2,
-    				rate_func = there_and_back,
-    			)
-    	self.wait(3)
-
 class Tachado(Scene):
     def construct(self):
         formula = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
         tache = Cross(formula[2])
         tache.set_stroke(RED, 6)
         self.play(Write(formula))
-        self.wait(2)
+        self.wait(.5)
         self.play(ShowCreation(tache))
         self.wait(2)
 
@@ -268,7 +262,7 @@ class Tachado2(Scene):
         tache = Cross(eq)
         tache.set_stroke(RED, 6)
         self.play(Write(formula))
-        self.wait(2)
+        self.wait(.5)
         self.play(ShowCreation(tache))
         self.wait(2)
 
@@ -278,12 +272,11 @@ class Encuadre1(Scene):
             "\\hat g(", "f", ")", "=", "\\int", "_{t_1}", "^{t_{2}}",
             "g(", "t", ")", "e", "^{-2\\pi i", "f", "t}", "dt"
         )
-        seleccion=VGroup(formula[4])
-        marco = SurroundingRectangle(seleccion, buff = 0.5*SMALL_BUFF)
+        marco = SurroundingRectangle(formula[4], buff = 0.5*SMALL_BUFF)
         self.play(Write(formula))
-        self.wait(1)
-        self.play(ShowCreation(marco)
-        )
+        self.wait(.5)
+        self.play(ShowCreation(marco))
+        self.wait(2)
 
 class Encuadre2(Scene):
     def construct(self):
@@ -291,9 +284,9 @@ class Encuadre2(Scene):
             "\\hat g(", "f", ")", "=", "\\int", "_{t_1}", "^{t_{2}}",
             "g(", "t", ")", "e", "^{-2\\pi i", "f", "t}", "dt"
         )
-        seleccion=VGroup(formula[4],formula[5],formula[6],formula[7])
+        seleccion=VGroup(formula[4],formula[5],formula[6])
         marco = SurroundingRectangle(seleccion, buff = 0.5*SMALL_BUFF)
         self.play(Write(formula))
-        self.wait(1)
-        self.play(ShowCreation(marco)
-        )
+        self.wait(.5)
+        self.play(ShowCreation(marco))
+        self.wait(2)
