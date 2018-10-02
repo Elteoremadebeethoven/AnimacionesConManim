@@ -38,8 +38,8 @@ class HelloWorld(Scene):
 [![https://i9.ytimg.com/vi/wlq86KsAnUA/mq2.jpg?sqp=CJiLzt0F&rs=AOn4CLDDAXHAYHC7c66tUU3T6dCB2IL7Mw](http://img.youtube.com/vi/wlq86KsAnUA/0.jpg)](http://www.youtube.com/watch?v=wlq86KsAnUA "Hello world! (in Manim)")
 ## Requermientos
 * Python 3.5 (o superior)
-* pip3
-* pycairo
+* pip3 (para instalar la lista de requirements.txt)
+* pycairo (suele dar problemas en la instalación de requirements.txt por lo que es recomendable instalarla antes)
 * ffmpeg
 * LaTeX (Miktex para Windows y TexLive para Linux/Mac) completo
 * sox
