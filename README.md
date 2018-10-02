@@ -1,6 +1,6 @@
 # Curso de Manim
 ## Temas del curso (actualizando)
-1. Instalación en Windows, GNU/Linux (próximamente en Mac).
+1. Instalación en Windows y GNU/Linux (próximamente en Mac).
 2. [Formato de textos (PDF)](https://drive.google.com/open?id=1BaWn_QJEz7hsizaLXFpM0YVOn9Gxi_Yn)/YouTube.
 3. [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube.
 
