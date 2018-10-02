@@ -11,7 +11,7 @@
 Este curso se dirige especialemte a profesores que quieran explicar de una forma didáctica y gráfica algún desarrollo matemático o resolución de problema especialmente complejo, pero el curso se extiende a cualquier persona que quiera explicar algún tema científico de una forma original.
 
 ## ¿Necesito saber programar en Python y LaTeX para entender el curso?
-Preferentemente sí, pero no es necesario. Hipotéticamente es posible no saber absolutamente nada de programación y poder entender el curso, aunque además de aprender Python 3 se requerirán conocimientos de TeX para la escritura de las fórmulas, pero de igual forma se darán a conocer herramientas como [Pencil chromestore](http://s1.daumcdn.net/editor/fp/service_nc/pencil/Pencil_chromestore.html) y [Code Cogs](https://www.codecogs.com/latex/eqneditor.php) para aprender a escribir fórmulas en TeX.
+Preferentemente sí, pero no es necesario. Hipotéticamente es posible no saber absolutamente nada de programación y poder entender el curso, aunque además de aprender Python 3 se requerirán conocimientos de TeX para la escritura de las fórmulas, pero de igual forma se darán a conocer herramientas como [Pencil chromestore](http://s1.daumcdn.net/editor/fp/service_nc/pencil/Pencil_chromestore.html) y [Codecogs](https://www.codecogs.com/latex/eqneditor.php) para aprender a escribir fórmulas en TeX.
 
 ## ¿Necesito una computadora moderna para usar Manim?
 No, con 512 MB de Ram y mínimo un procesador Intel Core Duo (o similar) es más que suficiente, la única diferencia entre una máquina potente y una de bajos recursos será el tiempo de compilación (entre menos recursos más tiempo demorará en compilar).
