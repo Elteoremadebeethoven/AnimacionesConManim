@@ -43,7 +43,7 @@ class HelloWorld(Scene):
 * pip3 (para instalar la lista de requirements.txt)
 * pycairo (suele dar problemas en la instalación de requirements.txt por lo que es recomendable instalarla antes)
 * ffmpeg
-* LaTeX (Miktex para Windows y TexLive para Linux/Mac) completo
+* LaTeX (Miktex para Windows y TexLive para GNU/Linux o Mac) completo
 * sox
 * Requerimeitos en la lista de requirements.txt
 
