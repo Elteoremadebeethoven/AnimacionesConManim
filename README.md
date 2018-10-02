@@ -10,6 +10,6 @@
 * ffmpeg
 * LaTeX (Miktex para Windows y TexLive para Linux/Mac)
 * sox
-* Requerimeitos en la lista de requeriments.txt
+* Requerimeitos en la lista de requirements.txt
 
 Peso total aproximado: 8 GB
