@@ -8,13 +8,13 @@
 [Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación especializada en temas científicos (especialmente de caracter matemático) creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), Matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
 
 ## ¿Para quién va dirigido el curso?
-Este curso se dirige especialemte a profesores que quieran explicar de una forma didáctica y gráfica algún desarrollo matemático o resolución de problema especialmente complejo, pero el curso se extiende a cualquier persona que quiera explicar algún tema científico de una forma original.
+Este curso se dirige principalmente a profesores que quieran explicar de una forma didáctica y gráfica algún desarrollo matemático o la resolución de problemas especialmente complejos, pero el curso se extiende a cualquier persona que quiera explicar algún tema científico de una forma original.
 
 ## ¿Necesito saber programar en Python y LaTeX para entender el curso?
-Preferentemente sí, pero no es necesario. Hipotéticamente es posible no saber absolutamente nada de programación y poder entender el curso, aunque además de aprender Python 3 se requerirán conocimientos de TeX para la escritura de las fórmulas, pero de igual forma se darán a conocer herramientas como [Pencil chromestore](http://s1.daumcdn.net/editor/fp/service_nc/pencil/Pencil_chromestore.html) y [Codecogs](https://www.codecogs.com/latex/eqneditor.php) para aprender a escribir fórmulas en TeX.
+Para antender el curso es posible no saber absolutamente nada de programación (aunque es preferible para que el aprendizage sea más rápido) y poder entender el curso. Además de aprender Python 3 se requerirán conocimientos de TeX para la escritura de las fórmulas. De igual forma se darán a conocer herramientas como [Pencil chromestore](http://s1.daumcdn.net/editor/fp/service_nc/pencil/Pencil_chromestore.html) y [Codecogs](https://www.codecogs.com/latex/eqneditor.php) para aprender a escribir fórmulas en TeX.
 
 ## ¿Necesito una computadora moderna para usar Manim?
-No, con 512 MB de Ram y mínimo un procesador Intel Core Duo (o similar) es más que suficiente, la única diferencia entre una máquina potente y una de bajos recursos será el tiempo de compilación (entre menos recursos más tiempo demorará en compilar).
+No, con 512 MB de Ram y un procesador Intel Core Duo (o similar) es más que suficiente, la única diferencia entre una máquina potente y una de bajos recursos es el tiempo de compilación (entre menos recursos más tiempo demorará en compilar).
 
 ## ¿Qué ventajas ofrece Manim en contraste con otras herramientas de animación profesionales?
 ### Ventajas:
@@ -25,7 +25,7 @@ No, con 512 MB de Ram y mínimo un procesador Intel Core Duo (o similar) es más
 * Constantemente se está mejorando ya que nuevos usuarios tabajan en él a través de su repositorio oficial en [GitHub](https://github.com/3b1b/manim).
 * Los archivos de video .mp4 que exporta, aún siendo de muy alta calidad (1440p), son muy ligeros.
 * Las fórmulas son creadas usando comandos TeX, por lo que son de calidad profesional (en lo que respecta a la comunidad científica).
-* En caso de no tener conocimientos en programación, es una buena excusa para empezar a aprender Python 3 y LaTeX.
+* En caso de no tener conocimientos de programación, es una buena herramienta para empezar a aprender Python 3 y LaTeX.
 ### Desventajas:
 * Si no tienes la paquetería de LaTeX (completa) instalada ocupará más de 6 GB de espacio en tu computadora.
 * No se usa una interfaz gráfica para realizar las animaciones, todo se basa en comandos de Python 3 y TeX. El ejemplo del cásico Hello world! sería ([ver en YouTube](https://www.youtube.com/watch?v=wlq86KsAnUA)):
