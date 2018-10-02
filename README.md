@@ -21,7 +21,7 @@ No, con 512 MB de Ram y mínimo un procesador Intel Core Duo (o similar) es más
 * Es gratis y legal.
 * Funciona en Windows, GNU/Linux (cualquier distribución) y Mac perfectamente, aunque es preferible usar Mac o GNU/Linux.
 * Se puede usar en computadoras antiguas.
-* Al ser de código abierto, es completamente personalizable al gusto del usuario.
+* Al ser de código abierto es completamente personalizable al gusto del usuario.
 * Constantemente se está mejorando ya que nuevos usuarios tabajan en él a través de su repositorio oficial en [GitHub](https://github.com/3b1b/manim).
 * Los archivos de video .mp4 que exporta, aún siendo de muy alta calidad (1440p), son muy ligeros.
 * Las fórmulas son creadas usando comandos TeX, por lo que son de calidad profesional (en lo que respecta a la comunidad científica).
