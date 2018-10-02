@@ -12,6 +12,10 @@ Preferentemente sí, pero no es necesario, incluso hipotéticamente es posible n
 ## ¿Necesito una computadora moderna para usar Manim?
 No, con 512 MB de Ram y mínimo un procesador Core Duo es más que suficiente, la única diferencia entre una máquina potente y una de bajos recursos será el tiempo de compilación (entre menos recursos más tiempo demorará en compilar).
 
+## ¿Qué ventajas ofrece Manim en contraste con otras herramientas de animación profesionales?
+### Ventajas:
+* Se puede usar en computadoras antiguas.
+
 ## Requermientos
 * Python 3
 * pip3
