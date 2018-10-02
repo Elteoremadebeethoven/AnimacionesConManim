@@ -8,7 +8,7 @@
 [Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), Matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw), especializada en temas científicos, principalmente de carácter matemático.
 
 ## ¿Para quién va dirigido el curso?
-Este curso se dirige principalmente a profesores que quieran explicar de una forma didáctica y gráfica algún desarrollo matemático o la resolución de problemas especialmente complejos, pero el curso se extiende a cualquier persona que quiera explicar algún tema científico de una forma original.
+Este curso se dirige principalmente a profesores que quieran explicar de una forma didáctica y gráfica algún desarrollo matemático o la resolución de problemas especialmente complejos. El curso se extiende a cualquier persona que quiera explicar algún tema científico de una forma original.
 
 ## ¿Necesito saber programar en Python y LaTeX para entender el curso?
 Para entender el curso es posible no saber absolutamente nada de programación (aunque es preferible para que el aprendizage sea más rápido). Además de aprender Python 3 se requerirán conocimientos de TeX para la escritura de las fórmulas. De igual forma se darán a conocer herramientas como [Pencil chromestore](http://s1.daumcdn.net/editor/fp/service_nc/pencil/Pencil_chromestore.html) y [Codecogs](https://www.codecogs.com/latex/eqneditor.php) para aprender a escribir fórmulas en TeX.
