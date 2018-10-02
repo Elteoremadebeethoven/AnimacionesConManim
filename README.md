@@ -13,3 +13,7 @@
 * Requerimeitos en la lista de requirements.txt
 
 Peso total aproximado: 8 GB
+
+## Temas del curso (actualizando)
+1. [Formato de textos](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/formato_textos.py)
+2. Fórmulas en TeX
