@@ -24,7 +24,7 @@ No, con 512 MB de Ram y mínimo un procesador Intel Core Duo (o similar) es más
 * Las animaciones son creadas usando comandos TeX, por lo que son de calidad profesional (en lo que respecta a la comunidad científica).
 * En caso de no tener conocimientos en programación, es una buena excusa para empezar a aprender Python 3 y TeX.
 ### Desventajas:
-* Si no tienes la paquetería de LaTeX instalada ocupará más de 6 GB de espacio en tu computadora.
+* Si no tienes la paquetería de LaTeX (completa) instalada ocupará más de 6 GB de espacio en tu computadora.
 * No se usa una interfaz gráfica para realizar las animaciones, todo se basa en comandos de Python 3. El ejemplo del cásico Hello world! sería ([ver en YouTube](https://www.youtube.com/watch?v=wlq86KsAnUA)):
 ```python
 from big_ol_pile_of_manim_imports import *
