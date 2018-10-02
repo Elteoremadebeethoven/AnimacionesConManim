@@ -4,7 +4,7 @@
 2. Fórmulas en TeX
 
 ## ¿Qué es Manim?
-[Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación especializada en temas científicos (especialmente de caracter matemático) creada por Grant Sanderson ([twitter](https://twitter.com/3blue1brown?lang=es)), Matemático de Stantford y dueño del canal de Youtube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
+[Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación especializada en temas científicos (especialmente de caracter matemático) creada por Grant Sanderson ([twitter](https://twitter.com/3blue1brown?lang=es)), Matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
 
 ## ¿Para quién va dirigido el curso?
 Este curso se dirige especialemte a profesores que quieran explicar de una forma didáctica y gráfica algún desarrollo matemático o resolución de problema especialmente complejo, pero el curso se extiende a cualquier persona que quiera explicar algún tema científico de una forma original.
@@ -25,7 +25,7 @@ No, con 512 MB de Ram y mínimo un procesador Core Duo es más que suficiente, l
 * En caso de no tener conocimientos en programación, es una buena excusa para empezar a aprender Python 3 y TeX.
 ### Desventajas:
 * Si no tienes la paquetería de LaTeX instalada ocupará más de 6 GB de espacio en tu computadora.
-* No se usa una interfaz gráfica para realizar las animaciones, todo se basa en comandos de Python 3. El ejemplo del cásico Hello world! sería ([ver en YouTuve](https://www.youtube.com/watch?v=wlq86KsAnUA)):
+* No se usa una interfaz gráfica para realizar las animaciones, todo se basa en comandos de Python 3. El ejemplo del cásico Hello world! sería ([ver en YouTube](https://www.youtube.com/watch?v=wlq86KsAnUA)):
 ```python
 from big_ol_pile_of_manim_imports import *
 class HolaMundo(Scene):
