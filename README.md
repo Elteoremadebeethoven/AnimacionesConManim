@@ -1,7 +1,8 @@
 # Curso de Manim
 ## Temas del curso (actualizando)
-1. [Formato de textos](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/formato_textos.py)
-2. Fórmulas en TeX
+1. Instalación en Windows, GNU/Linux (próximamente en Mac).
+2. [Formato de textos](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/formato_textos.py)
+3. Fórmulas en TeX
 
 ## ¿Qué es Manim?
 [Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación especializada en temas científicos (especialmente de caracter matemático) creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), Matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
