@@ -25,12 +25,12 @@ No, con 512 MB de Ram y mínimo un procesador Core Duo es más que suficiente, l
 * En caso de no tener conocimientos en programación, es una buena excusa para empezar a aprender Python 3 y TeX.
 ### Desventajas:
 * Si no tienes la paquetería de LaTeX instalada ocupará más de 6 GB de espacio en tu computadora.
-* No se usa una interfaz gráfica para realizar las animaciones, todo se basa en comandos de Python 3. El ejemplo del cásico Hola Mundo sería:
+* No se usa una interfaz gráfica para realizar las animaciones, todo se basa en comandos de Python 3. El ejemplo del cásico Hello world! sería:
 ```python
 from big_ol_pile_of_manim_imports import *
 class HolaMundo(Scene):
     def construct(self):
-        holaMundo = TextMobject("Hola Mundo!")
+        holaMundo = TextMobject("Hellow world!")
         self.play(Write(holaMundo))
         self.wait()
 ```
