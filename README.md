@@ -45,7 +45,7 @@ class HelloWorld(Scene):
 * ffmpeg
 * LaTeX (Miktex para Windows y TexLive para GNU/Linux o Mac) completo
 * sox
-* Requerimeitos en la lista de requirements.txt
+* Requerimientos en la lista de requirements.txt
 
 Peso total aproximado: 8 GB
 
