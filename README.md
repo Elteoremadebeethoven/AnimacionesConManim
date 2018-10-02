@@ -21,6 +21,7 @@ No, con 512 MB de Ram y mínimo un procesador Intel Core Duo (o similar) es más
 * Es gratis y legal.
 * Funciona en Windows, GNU/Linux (cualquier distribución) y Mac perfectamente, aunque es preferible usar Mac o GNU/Linux.
 * Se puede usar en computadoras antiguas.
+* Al ser de código abierto, es completamente personalizable al gusto del usuario.
 * Constantemente se está mejorando ya que nuevos usuarios tabajan en él a través de su repositorio oficial en [GitHub](https://github.com/3b1b/manim).
 * Los archivos de video .mp4 que exporta, aún siendo de muy alta calidad (1440p), son muy ligeros.
 * Las animaciones son creadas usando comandos TeX, por lo que son de calidad profesional (en lo que respecta a la comunidad científica).
@@ -37,7 +38,7 @@ class HelloWorld(Scene):
         self.wait()
 ```
 [![https://i9.ytimg.com/vi/wlq86KsAnUA/mq2.jpg?sqp=CJiLzt0F&rs=AOn4CLDDAXHAYHC7c66tUU3T6dCB2IL7Mw](http://img.youtube.com/vi/wlq86KsAnUA/0.jpg)](http://www.youtube.com/watch?v=wlq86KsAnUA "Hello world! (in Manim)")
-## Requermientos
+## Requerimientos
 * Python 3.5 (o superior)
 * pip3 (para instalar la lista de requirements.txt)
 * pycairo (suele dar problemas en la instalación de requirements.txt por lo que es recomendable instalarla antes)
