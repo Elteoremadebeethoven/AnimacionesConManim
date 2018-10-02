@@ -17,7 +17,7 @@ No, con 512 MB de Ram y mínimo un procesador Intel Core Duo (o similar) es más
 
 ## ¿Qué ventajas ofrece Manim en contraste con otras herramientas de animación profesionales?
 ### Ventajas:
-* Gratis y legal.
+* Es gratis y legal.
 * Se puede usar en computadoras antiguas.
 * Constantemente se está mejorando ya que nuevos usuarios tabajan en él a través de su repositorio oficial en GitHub.
 * Los archivos de video .mp4 que exporta, aún siendo de muy alta calidad (1440p), son muy ligeros.
