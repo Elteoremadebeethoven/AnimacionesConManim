@@ -109,7 +109,7 @@ class PosicionPersonalizado2(Scene): #move_to siempre es referente al centro
         self.play(Write(textoM))
         self.wait(3)
 
-class PosicionRelativa1(Scene):
+class PosicionRelativa(Scene):
     def construct(self):
         textoM = TextMobject("Texto relativo.")
         textoC = TextMobject("Texto de referencia.")
