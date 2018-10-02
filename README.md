@@ -1,4 +1,7 @@
 # Curso de Manim
+## Temas del curso (actualizando)
+1. [Formato de textos](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/formato_textos.py)
+2. Fórmulas en TeX
 
 ## ¿Qué es Manim?
 [Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación especializada en temas científicos (especialmente de caracter matemático) creada por Grant Sanderson ([twitter](https://twitter.com/3blue1brown?lang=es)), Matemático de Stantford y dueño del canal de Youtube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
@@ -14,7 +17,23 @@ No, con 512 MB de Ram y mínimo un procesador Core Duo es más que suficiente, l
 
 ## ¿Qué ventajas ofrece Manim en contraste con otras herramientas de animación profesionales?
 ### Ventajas:
+* Gratis y legal.
 * Se puede usar en computadoras antiguas.
+* Constantemente se está mejorando ya que nuevos usuarios tabajan en él a través de su repositorio oficial en GitHub.
+* Los archivos de video .mp4 que exporta, aún siendo de muy alta calidad (1440p), son muy ligeros.
+* Las animaciones son creadas usando comandos TeX, por lo que son de calidad profesional (en lo que respecta a la comunidad científica).
+* En caso de no tener conocimientos en programación, es una buena excusa para empezar a aprender Python 3 y TeX.
+### Desventajas:
+* Si no tienes la paquetería de LaTeX instalada ocupará más de 6 GB de espacio en tu computadora.
+* No se usa una interfaz gráfica para realizar las animaciones, todo se basa en comandos de Python 3. El ejemplo del cásico Hola Mundo sería:
+```sh
+from big_ol_pile_of_manim_imports import *
+class HolaMundo(Scene):
+    def construct(self):
+        holaMundo = TextMobject("Hola Mundo!")
+        self.play(Write(holaMundo))
+        self.wait()
+```
 
 ## Requermientos
 * Python 3
@@ -27,6 +46,3 @@ No, con 512 MB de Ram y mínimo un procesador Core Duo es más que suficiente, l
 
 Peso total aproximado: 8 GB
 
-## Temas del curso (actualizando)
-1. [Formato de textos](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/formato_textos.py)
-2. Fórmulas en TeX
