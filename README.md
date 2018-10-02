@@ -28,10 +28,10 @@ No, con 512 MB de Ram y mínimo un procesador Core Duo es más que suficiente, l
 * No se usa una interfaz gráfica para realizar las animaciones, todo se basa en comandos de Python 3. El ejemplo del cásico Hello world! sería ([ver en YouTube](https://www.youtube.com/watch?v=wlq86KsAnUA)):
 ```python
 from big_ol_pile_of_manim_imports import *
-class HolaMundo(Scene):
+class HelloWorld(Scene):
     def construct(self):
-        holaMundo = TextMobject("Hello world!")
-        self.play(Write(holaMundo))
+        helloWorld = TextMobject("Hello world!")
+        self.play(Write(helloWorld))
         self.wait()
 ```
 [![https://i9.ytimg.com/vi/wlq86KsAnUA/mq2.jpg?sqp=CJiLzt0F&rs=AOn4CLDDAXHAYHC7c66tUU3T6dCB2IL7Mw](http://img.youtube.com/vi/wlq86KsAnUA/0.jpg)](http://www.youtube.com/watch?v=wlq86KsAnUA "Hello world! (in Manim)")
