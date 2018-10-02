@@ -5,7 +5,7 @@
 3. [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube.
 
 ## ¿Qué es Manim?
-[Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación especializada en temas científicos (especialmente de caracter matemático) creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), Matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw).
+[Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), Matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw) especializada en temas científicos (especialmente de caracter matemático) .
 
 ## ¿Para quién va dirigido el curso?
 Este curso se dirige principalmente a profesores que quieran explicar de una forma didáctica y gráfica algún desarrollo matemático o la resolución de problemas especialmente complejos, pero el curso se extiende a cualquier persona que quiera explicar algún tema científico de una forma original.
