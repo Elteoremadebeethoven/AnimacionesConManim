@@ -144,12 +144,6 @@ class For2Variables(Scene):
         self.play(Write(texto))
         self.wait(3)
 
-class Resaltado(Scene): 
-    def construct(self):
-    	formula = TexMobject("\\lim_{x\\to\\infty} \\frac{1}{x}=0")
-    	self.play(Write(formula))
-    	self.wait(3)
-
 class ResaltadoV1(Scene): 
     def construct(self):
     	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
