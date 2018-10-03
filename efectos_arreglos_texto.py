@@ -146,103 +146,102 @@ class For2Variables(Scene):
 
 class ResaltadoV1(Scene): 
     def construct(self):
-    	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
-    	self.play(Write(formula))
+    	texto = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
+    	self.play(Write(texto))
     	self.wait(0.5)
     	self.play(
-    			formula[0].set_color, YELLOW,
-    			formula[0].scale_in_place, 1.2,
+    			texto[0].set_color, YELLOW,
+    			texto[0].scale_in_place, 1.2,
     			rate_func = there_and_back,
     		)
     	self.wait(3)
 
 class ResaltadoV2(Scene): 
     def construct(self):
-        formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
-        self.play(Write(formula))
+        texto = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
+        self.play(Write(texto))
         self.wait(0.5)
         for i in [0,8]:
-            texto = formula[i]
             self.play(
-                    texto.set_color, YELLOW,
-                    texto.scale_in_place, 1.2,
+                    texto[i].set_color, YELLOW,
+                    texto[i].scale_in_place, 1.2,
                     rate_func = there_and_back,
                 )
         self.wait(3)
 
 class ResaltadoV3(Scene): 
     def construct(self):
-    	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
-    	self.play(Write(formula))
+    	texto = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
+    	self.play(Write(texto))
     	self.wait(0.5)
     	self.play(
-    			formula[0].set_color, YELLOW,
-    			formula[0].scale_in_place, 1.2,
+    			texto[0].set_color, YELLOW,
+    			texto[0].scale_in_place, 1.2,
     			run_time =0.3
     		)
     	self.wait(2)
     	self.play(
-    			formula[0].set_color, WHITE,
-    			formula[0].scale_in_place, 1/1.2,
+    			texto[0].set_color, WHITE,
+    			texto[0].scale_in_place, 1/1.2,
     			run_time =0.3
     		)
     	self.wait(3)
 
 class ResaltadoV4(Scene): 
     def construct(self):
-    	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
-    	self.play(Write(formula))
+    	texto = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
+    	self.play(Write(texto))
     	self.wait(0.5)
     	self.play(
-    			formula[0].set_color, YELLOW,
-    			formula[0].scale_in_place, 1.2,
-    			formula[3].set_color, YELLOW,
-    			formula[3].scale_in_place, 1.2,
-    			formula[7].set_color, YELLOW,
-    			formula[7].scale_in_place, 1.2,
+    			texto[0].set_color, YELLOW,
+    			texto[0].scale_in_place, 1.2,
+    			texto[3].set_color, YELLOW,
+    			texto[3].scale_in_place, 1.2,
+    			texto[7].set_color, YELLOW,
+    			texto[7].scale_in_place, 1.2,
     			rate_func = there_and_back,
     		)
     	self.wait(3)
 
 class ResaltadoV5(Scene): 
     def construct(self):
-    	formula = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
-    	self.play(Write(formula))
+    	texto = TexMobject("\\lim_{","x","\\to","\\infty}","{1","\\over","x}","=","0")
+    	self.play(Write(texto))
     	self.wait(0.5)
     	for i,j,k,l,m in [(0,3,4,4,4),(5,3,3,3,3),(0,2,4,6,8)]:
 	    	self.play(
-	    			formula[i].set_color, YELLOW,
-	    			formula[i].scale_in_place, 1.2,
-	    			formula[j].set_color, YELLOW,
-	    			formula[j].scale_in_place, 1.2,
-	    			formula[k].set_color, YELLOW,
-	    			formula[k].scale_in_place, 1.2,
-	    			formula[l].set_color, YELLOW,
-	    			formula[l].scale_in_place, 1.2,
-	    			formula[m].set_color, YELLOW,
-	    			formula[m].scale_in_place, 1.2,
+	    			texto[i].set_color, YELLOW,
+	    			texto[i].scale_in_place, 1.2,
+	    			texto[j].set_color, YELLOW,
+	    			texto[j].scale_in_place, 1.2,
+	    			texto[k].set_color, YELLOW,
+	    			texto[k].scale_in_place, 1.2,
+	    			texto[l].set_color, YELLOW,
+	    			texto[l].scale_in_place, 1.2,
+	    			texto[m].set_color, YELLOW,
+	    			texto[m].scale_in_place, 1.2,
 	    			run_time =0.3
 	    		)
 	    	self.wait(2)
 	    	self.play(
-	    			formula[i].set_color, WHITE,
-	    			formula[i].scale_in_place, 1/1.2,
-	    			formula[j].set_color, WHITE,
-	    			formula[j].scale_in_place, 1/1.2,
-	    			formula[k].set_color, WHITE,
-	    			formula[k].scale_in_place, 1/1.2,
-	    			formula[l].set_color, WHITE,
-	    			formula[l].scale_in_place, 1/1.2,
-	    			formula[m].set_color, WHITE,
-	    			formula[m].scale_in_place, 1/1.2,
+	    			texto[i].set_color, WHITE,
+	    			texto[i].scale_in_place, 1/1.2,
+	    			texto[j].set_color, WHITE,
+	    			texto[j].scale_in_place, 1/1.2,
+	    			texto[k].set_color, WHITE,
+	    			texto[k].scale_in_place, 1/1.2,
+	    			texto[l].set_color, WHITE,
+	    			texto[l].scale_in_place, 1/1.2,
+	    			texto[m].set_color, WHITE,
+	    			texto[m].scale_in_place, 1/1.2,
 	    			run_time =0.3
 	    		)
     	self.wait(3)
 
 class Tachado(Scene):
     def construct(self):
-        formula = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
-        tache = Cross(formula[2])
+        texto = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
+        tache = Cross(texto[2])
         tache.set_stroke(RED, 6)
         self.play(Write(formula))
         self.wait(.5)
@@ -251,36 +250,36 @@ class Tachado(Scene):
 
 class Tachado2(Scene):
     def construct(self):
-        formula = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
-        eq=VGroup(formula[1],formula[2])
+        texto = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
+        eq=VGroup(texto[1],texto[2])
         tache = Cross(eq)
         tache.set_stroke(RED, 6)
-        self.play(Write(formula))
+        self.play(Write(texto))
         self.wait(.5)
         self.play(ShowCreation(tache))
         self.wait(2)
 
 class Encuadre1(Scene):
     def construct(self):
-        formula=TexMobject(
+        texto=TexMobject(
             "\\hat g(", "f", ")", "=", "\\int", "_{t_1}", "^{t_{2}}",
             "g(", "t", ")", "e", "^{-2\\pi i", "f", "t}", "dt"
         )
-        marco = SurroundingRectangle(formula[4], buff = 0.5*SMALL_BUFF)
-        self.play(Write(formula))
+        marco = SurroundingRectangle(texto[4], buff = 0.5*SMALL_BUFF)
+        self.play(Write(texto))
         self.wait(.5)
-        self.play(ShowCreation(marco))
+        self.play(ShowCreation(texto))
         self.wait(2)
 
 class Encuadre2(Scene):
     def construct(self):
-        formula=TexMobject(
+        texto=TexMobject(
             "\\hat g(", "f", ")", "=", "\\int", "_{t_1}", "^{t_{2}}",
             "g(", "t", ")", "e", "^{-2\\pi i", "f", "t}", "dt"
         )
-        seleccion=VGroup(formula[4],formula[5],formula[6])
+        seleccion=VGroup(texto[4],texto[5],texto[6])
         marco = SurroundingRectangle(seleccion, buff = 0.5*SMALL_BUFF)
-        self.play(Write(formula))
+        self.play(Write(texto))
         self.wait(.5)
         self.play(ShowCreation(marco))
         self.wait(2)
