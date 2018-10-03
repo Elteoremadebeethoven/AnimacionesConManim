@@ -38,7 +38,7 @@ class HelloWorld(Scene):
         self.wait()
 ```
 <p align="center">
-![](HelloWorld.gif)
+<![](HelloWorld.gif)>
 </p>                                                                                                            
 ## Requerimientos
 * Python 3.5 (o superior)
