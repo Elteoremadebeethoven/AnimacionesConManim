@@ -38,7 +38,7 @@ class HelloWorld(Scene):
         self.wait()
 ```
 <p align="center">
-<a href="https://imgflip.com/gif/2jaha1"><img src="https://i.imgflip.com/2jaha1.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/2jai5x"><img src="https://i.imgflip.com/2jai5x.gif" title="made at imgflip.com"/></a>
 </p>
                                                                                                                                          
 ## Requerimientos
