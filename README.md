@@ -37,7 +37,7 @@ class HelloWorld(Scene):
         self.play(Write(helloWorld))
         self.wait()
 ```
-<a href="https://imgflip.com/gif/2jaha1"><img src="https://i.imgflip.com/2jaha1.gif" title="made at imgflip.com"/></a>(http://img.youtube.com/vi/wlq86KsAnUA/0.jpg)](http://www.youtube.com/watch?v=wlq86KsAnUA "Hello world! (in Manim)")
+<a href="https://imgflip.com/gif/2jaha1"><img src="https://i.imgflip.com/2jaha1.gif" title="made at imgflip.com"/></a>
 ## Requerimientos
 * Python 3.5 (o superior)
 * pip3 (para instalar la lista de requirements.txt)
