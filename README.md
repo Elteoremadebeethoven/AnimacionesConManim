@@ -38,7 +38,7 @@ class HelloWorld(Scene):
         self.wait()
 ```
 
-<p><a href="https://giphy.com/gifs/LXfGvbvOgIMX1Ddh7S">via GIPHY</a></p>
+<p><a iframe src="https://giphy.com/embed/LXfGvbvOgIMX1Ddh7S" width="480">via GIPHY</a></p>
                                                                                                                                          
 ## Requerimientos
 * Python 3.5 (o superior)
