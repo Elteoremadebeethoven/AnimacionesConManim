@@ -37,8 +37,7 @@ class HelloWorld(Scene):
         self.play(Write(helloWorld))
         self.wait()
 ```
-        <dt>center</dt>
-        <dd>![](HelloWorld.gif)</dd>
+![](HelloWorld.gif){ width="800" height="600" style="display: block; margin: 0 auto" }
       
 
 ## Requerimientos
