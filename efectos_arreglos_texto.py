@@ -3,7 +3,7 @@ from big_ol_pile_of_manim_imports import *
 COLOR_P="#3EFC24"
 
 class ColorTexto(Scene): 
-    def construct(self): #ver constants.py
+    def construct(self): 
         texto = TextMobject("A","B","C","D","E","F")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
@@ -15,7 +15,7 @@ class ColorTexto(Scene):
         self.wait(3)
 
 class FormulaColor1(Scene): 
-    def construct(self): #revomendar usar over
+    def construct(self):¿
         texto = TexMobject("x","=","{a","\\over","b}")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
@@ -26,7 +26,7 @@ class FormulaColor1(Scene):
         self.wait(3)
 
 class FormulaColor2(Scene): 
-    def construct(self): #no usar siempre frac
+    def construct(self): 
         texto = TexMobject("x","=","\\frac{a}{b}")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
@@ -35,7 +35,7 @@ class FormulaColor2(Scene):
         self.wait(3)
 
 class FormulaColor3(Scene): 
-    def construct(self): #no usar siempre frac
+    def construct(self):
         texto = TexMobject("\\sqrt{","\\int_{","a}^","{b}","\\left(","\\frac{x}{y}","\\right)","dx}")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
@@ -49,7 +49,7 @@ class FormulaColor3(Scene):
         self.wait(3)
 
 class FormulaColor3Mejorada(Scene): 
-    def construct(self): #no usar siempre frac
+    def construct(self): 
         texto = TexMobject("\\sqrt{","\\int_{","a}^","{b}","\\left(","\\frac{x}{y}","\\right)","dx.}")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
@@ -63,7 +63,7 @@ class FormulaColor3Mejorada(Scene):
         self.wait(3)
 
 class FormulaColor3Mejorada2(Scene): 
-    def construct(self): #no usar siempre frac
+    def construct(self): 
         texto = TexMobject("\\sqrt{","\\int_","{a}^","{b}","{\\left(","{x","\\over","y}","\\right)}","d","x",".}")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
@@ -79,7 +79,7 @@ class FormulaColor3Mejorada2(Scene):
         self.wait(3)
 
 class FormulaColor4(Scene): 
-    def construct(self): #no usar siempre frac
+    def construct(self): 
         texto = TexMobject("\\sqrt{","\\int_","{a","+","c}^","{b}","{\\left(","{x","\\over","y}","\\right)}","d","x",".}")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
@@ -96,6 +96,22 @@ class FormulaColor4(Scene):
         self.play(Write(texto))
         self.wait(3)
 
+class ColorPorCaracter1(Scene):
+	def construct(self):
+		texto = TexMobject("{d","\\over","d","x","}","\\int_","{a}^","{","x","}","f(","t",")d","t","=","f(","x",")")
+		texto.set_color_by_tex("x",RED)
+		self.play(Write(texto))
+		self.wait(2)
+
+class ColorPorCaracter2(Scene): #explicar y modificar x por {x}
+	def construct(self):
+		texto = TexMobject("{d","\\over","d","x","}","\\int_","{a}^","{","x","}","f(","t",")d","t","=","f(","x",")")
+		texto.set_color_by_tex("x",RED)
+		texto[6].set_color(RED)
+		texto[8].set_color(WHITE)
+		self.play(Write(texto))
+		self.wait(2)
+	
 class ForLista(Scene): 
     def construct(self): #no usar siempre frac
         texto = TexMobject("[0]","[1]","[2]","[3]","[4]","[5]","[6]","[7]")
@@ -127,22 +143,6 @@ class For2Variables(Scene):
         	texto[i].set_color(color)
         self.play(Write(texto))
         self.wait(3)
-
-class ColorPorLetras1(Scene):
-	def construct(self):
-		texto = TexMobject("{d","\\over","d","x","}","\\int_","{a}^","{","x","}","f(","t",")d","t","=","f(","x",")")
-		texto.set_color_by_tex("x",RED)
-		self.play(Write(texto))
-		self.wait(2)
-
-class ColorPorLetras2(Scene): #explicar y modificar x por {x}
-	def construct(self):
-		texto = TexMobject("{d","\\over","d","x","}","\\int_","{a}^","{","x","}","f(","t",")d","t","=","f(","x",")")
-		texto.set_color_by_tex("x",RED)
-		texto[6].set_color(RED)
-		texto[8].set_color(WHITE)
-		self.play(Write(texto))
-		self.wait(2)
 
 class Resaltado(Scene): 
     def construct(self):
