@@ -38,8 +38,9 @@ class HelloWorld(Scene):
         self.wait()
 ```
 <p align="center">
-<a img width="460" height="300 href="https://imgflip.com/gif/2jaha1"><img src="https://i.imgflip.com/2jaha1.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/2jaha1"><img src="https://i.imgflip.com/2jaha1.gif" title="made at imgflip.com"/></a>
 </p>
+                                                                                                                                         
 ## Requerimientos
 * Python 3.5 (o superior)
 * pip3 (para instalar la lista de requirements.txt)
