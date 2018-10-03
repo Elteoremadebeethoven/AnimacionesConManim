@@ -37,8 +37,9 @@ class HelloWorld(Scene):
         self.play(Write(helloWorld))
         self.wait()
 ```
-
-![](HelloWorld.gif)      
+        <dt>center</dt>
+        <dd>![](HelloWorld.gif)</dd>
+      
 
 ## Requerimientos
 * Python 3.5 (o superior)
