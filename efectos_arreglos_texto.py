@@ -2,8 +2,8 @@ from big_ol_pile_of_manim_imports import *
 
 COLOR_P="#3EFC24"
 
-class ColorTexto(Scene): 
-    def construct(self): 
+class ColorTexto(Scene):
+    def construct(self):
         texto = TextMobject("A","B","C","D","E","F")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
@@ -15,7 +15,7 @@ class ColorTexto(Scene):
         self.wait(3)
 
 class FormulaColor1(Scene): 
-    def construct(self):¿
+    def construct(self):
         texto = TexMobject("x","=","{a","\\over","b}")
         texto[0].set_color(RED)
         texto[1].set_color(BLUE)
@@ -103,7 +103,7 @@ class ColorPorCaracter1(Scene):
 		self.play(Write(texto))
 		self.wait(2)
 
-class ColorPorCaracter2(Scene): #explicar y modificar x por {x}
+class ColorPorCaracter2(Scene): 
 	def construct(self):
 		texto = TexMobject("{d","\\over","d","x","}","\\int_","{a}^","{","x","}","f(","t",")d","t","=","f(","x",")")
 		texto.set_color_by_tex("x",RED)
@@ -243,7 +243,7 @@ class Tachado(Scene):
         texto = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
         tache = Cross(texto[2])
         tache.set_stroke(RED, 6)
-        self.play(Write(formula))
+        self.play(Write(texto))
         self.wait(.5)
         self.play(ShowCreation(tache))
         self.wait(2)
@@ -251,7 +251,7 @@ class Tachado(Scene):
 class Tachado2(Scene):
     def construct(self):
         texto = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
-        eq=VGroup(texto[1],texto[2])
+        eq = VGroup(texto[1],texto[2])
         tache = Cross(eq)
         tache.set_stroke(RED, 6)
         self.play(Write(texto))
@@ -268,7 +268,7 @@ class Encuadre1(Scene):
         marco = SurroundingRectangle(texto[4], buff = 0.5*SMALL_BUFF)
         self.play(Write(texto))
         self.wait(.5)
-        self.play(ShowCreation(texto))
+        self.play(ShowCreation(marco))
         self.wait(2)
 
 class Encuadre2(Scene):
