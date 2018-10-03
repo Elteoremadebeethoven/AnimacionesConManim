@@ -42,7 +42,8 @@ class HelloWorld(Scene):
 <p float="right">
   <img src="/HelloWorld.gif" width="100" />
 </p>
-      
+
+<div style="text-align:center"><img src ="/HelloWorld.gif" /></div>
 
 ## Requerimientos
 * Python 3.5 (o superior)
