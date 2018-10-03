@@ -37,9 +37,9 @@ class HelloWorld(Scene):
         self.play(Write(helloWorld))
         self.wait()
 ```
-
+<p align="center">
 ![](HelloWorld.gif)
-                                                                                                                                         
+</p>                                                                                                            
 ## Requerimientos
 * Python 3.5 (o superior)
 * pip3 (para instalar la lista de requirements.txt)
