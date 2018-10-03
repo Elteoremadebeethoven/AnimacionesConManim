@@ -38,7 +38,7 @@ class HelloWorld(Scene):
         self.wait()
 ```
 <p align="center">
-<img src="https://giphy.com/gifs/LXfGvbvOgIMX1Ddh7S/html5">
+<iframe src="https://giphy.com/embed/LXfGvbvOgIMX1Ddh7S" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/LXfGvbvOgIMX1Ddh7S">via GIPHY</a></p>
 </p>
                                                                                                                                          
 ## Requerimientos
