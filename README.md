@@ -5,14 +5,15 @@
 3. [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube.
 
 ## ¿Qué es Manim?
-[Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). Está especializada en temas científicos, principalmente de carácter matemático, por lo que está basada en comandos de LaTeX (principalmente TeX).
+[Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). Está especializada en temas científicos, principalmente de carácter matemático, por lo que está basada en comandos de LaTeX (principalmente en TeX).
 
 ## ¿Qué es LaTeX?
-LaTeX es un procesador de textos especializada en el ambito científico, sin embargo, en general Manim sólo utiliza los comandos TeX (con algunas excepciones), que se refieren a la escritura de fórmulas, un ejemplo del código en TeX es:
+LaTeX es un procesador de textos especializada en el ambito científico, sin embargo, Manim sólo utiliza los comandos TeX (con algunas excepciones), que se refieren a la escritura de fórmulas. Un ejemplo del código en TeX es:
 ```latex
 \frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}.
 ```
 Este comando TeX lo compila como:
+<p align="center"><img src ="http://www.sciweavers.org/upload/Tex2Img_1538658756/render.png" /></p>
 ## ¿Para quién va dirigido el curso?
 Este curso se dirige principalmente a profesores que quieran explicar de una forma didáctica y gráfica algún desarrollo matemático o la resolución de problemas especialmente complejos. El curso se extiende a cualquier persona que quiera explicar algún tema científico de una forma original.
 
