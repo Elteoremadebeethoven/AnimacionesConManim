@@ -14,6 +14,7 @@ LaTeX es un procesador de textos especializada en el ambito científico, sin emb
 ```
 Este comando TeX lo compila como:
 <p align="center"><img src ="http://www.sciweavers.org/upload/Tex2Img_1538658756/render.png" /></p>
+
 ## ¿Para quién va dirigido el curso?
 Este curso se dirige principalmente a profesores que quieran explicar de una forma didáctica y gráfica algún desarrollo matemático o la resolución de problemas especialmente complejos. El curso se extiende a cualquier persona que quiera explicar algún tema científico de una forma original.
 
