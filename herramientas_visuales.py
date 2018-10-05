@@ -71,7 +71,9 @@ class MovimientoEncuadreCopia(Scene):
         self.play(Write(texto))
         marco1 = SurroundingRectangle(texto[1], buff = .1)
         marco2 = SurroundingRectangle(texto[3], buff = .1)
-        self.play(ShowCreation(marco1))
+        self.play(
+		ShowCreation(marco1)
+	)
         self.wait()
         self.play(
         	ReplacementTransform(marco1.copy(),marco2),
