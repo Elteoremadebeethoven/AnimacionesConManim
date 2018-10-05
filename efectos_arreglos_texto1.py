@@ -202,7 +202,7 @@ class ColoreadoTexto(Scene):
 
 class Tachado1(Scene):
     def construct(self):
-        texto = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
+        texto = TexMobject("\\sum_{i=1}^{\\infty}i","=","-\\frac{1}{2}")
         tache = Cross(texto[2])
         tache.set_stroke(RED, 6)
         self.play(Write(texto))
@@ -212,7 +212,7 @@ class Tachado1(Scene):
 
 class Tachado2(Scene):
     def construct(self):
-        texto = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
+        texto = TexMobject("\\sum_{i=1}^{\\infty}i","=","-\\frac{1}{2}")
         eq = VGroup(texto[1],texto[2])
         tache = Cross(eq)
         tache.set_stroke(RED, 6)
