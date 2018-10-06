@@ -1,4 +1,4 @@
-```python {line-numbers}
+```python3
 class GraficaSenoCoseno2(GraphScene):
     CONFIG = {
         "y_max" : 1.5,
