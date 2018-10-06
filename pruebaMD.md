@@ -57,3 +57,5 @@ class Grafica1v2(GraphScene):
 ```
 
 <p align="center"><img src ="/Grafica2.gif" /></p>
+
+<p align="center"><img src ="/TextoWrite.gif" /></p>
