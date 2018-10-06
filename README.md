@@ -2,7 +2,7 @@
 ## Temas del curso (actualizando)
 0. Instalación en Windows y GNU/Linux (próximamente en Mac).
 1. [Formato de textos (PDF)](https://drive.google.com/open?id=1BaWn_QJEz7hsizaLXFpM0YVOn9Gxi_Yn)/YouTube/[Resumen]()
-1.5. [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube/[Resumen]()
+* [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube/[Resumen]()
 2. [(PDF)]()/YouTube/[Resumen]()
 3. [(PDF)]()/YouTube/[Resumen]()
 4. [(PDF)]()/YouTube/[Resumen]()
