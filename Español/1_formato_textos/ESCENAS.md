@@ -9,7 +9,7 @@ class TextoWrite(Scene):
         self.play(Write(texto))
         self.wait(3)
 ```
-<p align="center"><img src ="/gifs/TextoWrite.gif" /></p>
+<p align="center"><img src ="Español/1_formato_textos/gifs/TextoWrite.gif" /></p>
 
 ### 
 ```python3
