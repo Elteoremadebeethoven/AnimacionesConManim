@@ -1,4 +1,4 @@
-# Herramientas visuales (Llaves, cuadros, flechas y lineas)
+# Herramientas visuales (llaves, cuadros, flechas y lineas)
 ## Programas
 ### 
 ```python3
