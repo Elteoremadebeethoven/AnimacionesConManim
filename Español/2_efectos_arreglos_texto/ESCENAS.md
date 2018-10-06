@@ -151,7 +151,7 @@ class ColorPorCaracterCorregida(Scene):
 ### 
 ```python3
 class ForLista(Scene): 
-    def construct(self): #no usar siempre frac
+    def construct(self): 
         texto = TexMobject("[0]","[1]","[2]","[3]","[4]","[5]","[6]","[7]")
         for i in [0,1,3,4]:
         	texto[i].set_color(RED)
@@ -175,7 +175,7 @@ class ForRango1(Scene):
 ### 
 ```python3
 class ForRango2(Scene): 
-    def construct(self): #no usar siempre frac
+    def construct(self): 
         texto = TexMobject("[0]","[1]","[2]","[3]","[4]","[5]","[6]","[7]")
         for i in range(2,6):
         	texto[i].set_color(RED)
@@ -187,7 +187,7 @@ class ForRango2(Scene):
 ### 
 ```python3
 class For2Variables(Scene): 
-    def construct(self): #no usar siempre frac
+    def construct(self): 
         texto = TexMobject("[0]","[1]","[2]","[3]","[4]","[5]","[6]","[7]")
         for i,color in [(2,RED),(4,PINK)]:
         	texto[i].set_color(color)
