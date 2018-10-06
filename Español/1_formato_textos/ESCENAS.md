@@ -19,7 +19,7 @@ class TextoAdd(Scene):
         self.add(texto)
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/TextoAdd.gif" /></p>
 
 ### 
 ```python3
@@ -29,7 +29,7 @@ class Formula(Scene):
         self.play(Write(formula))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/.gif" /></p>
 
 ### 
 ```python3
@@ -43,7 +43,7 @@ class TextoMixto(Scene):
         self.play(Write(textoMixto))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/TextoMixto.gif" /></p>
 
 ### 
 ```python3
@@ -57,7 +57,7 @@ class TextoMixto2(Scene):
         self.play(Write(textoMixto))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/TextoMixto2.gif" /></p>
 
 ### 
 ```python3
@@ -71,7 +71,7 @@ class TextoMixtoDisplay(Scene):
         self.play(Write(textoMixto))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/TextoMixtoDisplay.gif" /></p>
 
 ### 
 ```python3
@@ -81,7 +81,7 @@ class PosicionTextoCentro(Scene):
         self.play(Write(texto))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionTextoCentro.gif" /></p>
 
 ### 
 ```python3
@@ -92,7 +92,10 @@ class PosicionTextoSuperior(Scene):
         self.play(Write(texto))
         self.wait(3)
 ```
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionTextoSuperior.gif" /></p>
 
+### 
+```python3
 class PosicionTextoInferior(Scene):
     def construct(self):
         texto = TextMobject("Texto genérico.")
@@ -100,7 +103,9 @@ class PosicionTextoInferior(Scene):
         self.play(Write(texto))
         self.wait(3)
 ```
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionTextoInferior.gif" /></p>
 
+### 
 ```python3
 class PosicionTextoDerecha(Scene): #Probar con "Texto genérico ampliado"
     def construct(self):
@@ -109,7 +114,7 @@ class PosicionTextoDerecha(Scene): #Probar con "Texto genérico ampliado"
         self.play(Write(texto))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionTextoDerecha.gif" /></p>
 
 ### 
 ```python3
@@ -120,7 +125,7 @@ class PosicionTextoIzquierda(Scene):
         self.play(Write(texto))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionTextoIzquierda.gif" /></p>
 
 ### 
 ```python3
@@ -131,7 +136,7 @@ class PosicionTextoSuperiorDerecha(Scene):
         self.play(Write(texto))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionTextoSuperiorDerecha.gif" /></p>
 
 ### 
 ```python3
@@ -142,7 +147,9 @@ class PosicionTextoInferiorIzquierda(Scene):
         self.play(Write(texto))
         self.wait(3)
 ```
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionTextoInferiorIzquierda.gif" /></p>
 
+### 
 ```python3
 class PosicionPersonalizado1(Scene):
     def construct(self):
@@ -152,7 +159,7 @@ class PosicionPersonalizado1(Scene):
         self.play(Write(textoM),Write(textoC))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionPersonalizado1.gif" /></p>
 
 ### 
 ```python3
@@ -167,7 +174,7 @@ class PosicionPersonalizado2(Scene): #move_to siempre es referente al centro
         self.play(Write(textoM))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionPersonalizado2.gif" /></p>
 
 ### 
 ```python3
@@ -179,7 +186,7 @@ class PosicionRelativa1(Scene):
         self.play(Write(textoM),Write(textoC))
         self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionRelativa1.gif" /></p>
 
 ### 
 ```python3
@@ -208,7 +215,7 @@ class Tamanhos(Scene):
 		self.add(textoHuge,textohuge,textoLARGE,textoLarge,textolarge,textoNormal,textosmall,textofootnotesize,textoscriptsize,textotiny)
 		self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/Tamanhos.gif" /></p>
 
 ### 
 ```python3
@@ -218,7 +225,7 @@ class TamanhosPersonalizados(Scene):
 		self.play(Write(texto))
 		self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/TamanhosPersonalizados.gif" /></p>
 
 ### 
 ```python3
@@ -239,4 +246,4 @@ class Fuentes(Scene):
 		self.add(textoNormal,textoItalica,textoMaquina,textoNegritas,textoSL,textoSC)
 		self.wait(3)
 ```
-<p align="center"><img src ="/.gif" /></p>
+<p align="center"><img src ="/Español/1_formato_textos/gifs/Fuentes.gif" /></p>
