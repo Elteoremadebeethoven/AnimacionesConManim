@@ -1,8 +1,12 @@
 # Curso de Manim
 ## Temas del curso (actualizando)
-1. Instalación en Windows y GNU/Linux (próximamente en Mac).
-2. [Formato de textos (PDF)](https://drive.google.com/open?id=1BaWn_QJEz7hsizaLXFpM0YVOn9Gxi_Yn)/YouTube.
-3. [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube.
+0. Instalación en Windows y GNU/Linux (próximamente en Mac).
+1. [Formato de textos (PDF)](https://drive.google.com/open?id=1BaWn_QJEz7hsizaLXFpM0YVOn9Gxi_Yn)/YouTube/[Resumen]()
+1.5. [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube/[Resumen]()
+2. [(PDF)]()/YouTube/[Resumen]()
+3. [(PDF)]()/YouTube/[Resumen]()
+4. [(PDF)]()/YouTube/[Resumen]()
+5. /YouTube.
 
 ## ¿Qué es Manim?
 [Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). Está especializada en temas científicos, principalmente de carácter matemático, por lo que está basada en comandos de LaTeX (principalmente en TeX).
