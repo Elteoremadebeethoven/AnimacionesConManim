@@ -265,7 +265,7 @@ class EfectoAparicionTexto3(Scene):
 
 ### 
 ```python3
-class cc(Scene):
+class ColorTexto(Scene):
     def construct(self):
         texto = TextMobject("Texto u objeto")
         self.add(texto)
@@ -278,7 +278,7 @@ class cc(Scene):
             ))
         self.wait(0.5)
 ```
-<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/EfectoAparicionTexto1.gif" /></p>
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/ColorTexto.gif" /></p>
 
 ### 
 ```python3
