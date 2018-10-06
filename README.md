@@ -1,4 +1,5 @@
-# Curso de Manim
+<p align="center"><img src ="/titulo.gif" /></p>
+
 ## Temas del curso (actualizando)
 0. Instalación en Windows y GNU/Linux (próximamente en Mac).
 1. [Formato de textos (PDF)](https://drive.google.com/open?id=1BaWn_QJEz7hsizaLXFpM0YVOn9Gxi_Yn)/YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/1_formato_textos/ESCENAS.md)
