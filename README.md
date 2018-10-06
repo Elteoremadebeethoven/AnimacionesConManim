@@ -1,12 +1,14 @@
 # Curso de Manim
 ## Temas del curso (actualizando)
 0. Instalación en Windows y GNU/Linux (próximamente en Mac).
-1. [Formato de textos (PDF)](https://drive.google.com/open?id=1BaWn_QJEz7hsizaLXFpM0YVOn9Gxi_Yn)/YouTube/[Resumen]()
+1. [Formato de textos (PDF)](https://drive.google.com/open?id=1BaWn_QJEz7hsizaLXFpM0YVOn9Gxi_Yn)/YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/1_formato_textos/ESCENAS.md)
+2. [Efectos de texto usando arreglos (PDF)](https://drive.google.com/open?id=1i7maqGJcb8Nk5lQf--gsY4vBiIxpFI9M)/YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/2_efectos_arreglos_texto/ESCENAS.md)
+3. [Transformación de textos (PDF)](https://drive.google.com/open?id=1Hfm3H39LHzgBM9-PH-4DROPORwP4yOn7)/YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/3_transformaciones_texto/ESCENAS.md)
+4. [Herramientas visuales (PDF)](https://drive.google.com/open?id=15hk52wgaR4MeDZSvo8LlgbeWe6K6EXY7)/YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/4_herramientas_visuales/ESCENAS.md)
+5. YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/5_introducci%C3%B3n_gr%C3%A1ficas/ESCENAS.md)
+
+Extras:
 * [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube/[Resumen]()
-2. [(PDF)]()/YouTube/[Resumen]()
-3. [(PDF)]()/YouTube/[Resumen]()
-4. [(PDF)]()/YouTube/[Resumen]()
-5. /YouTube.
 
 ## ¿Qué es Manim?
 [Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). Está especializada en temas científicos, principalmente de carácter matemático, por lo que está basada en comandos de LaTeX (principalmente en TeX).
