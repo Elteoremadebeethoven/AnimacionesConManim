@@ -15,7 +15,7 @@ Extras:
 [Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). Está especializada en temas científicos, principalmente de carácter matemático, por lo que está basada en comandos de LaTeX (principalmente en TeX).
 
 ## ¿Qué es LaTeX?
-LaTeX es un procesador de textos especializada en el ambito científico, sin embargo, Manim sólo utiliza los comandos TeX (con algunas excepciones), que se refieren a la escritura de fórmulas. Un ejemplo del código en TeX es:
+LaTeX es un procesador de textos especializado en el ambito científico, sin embargo, Manim sólo utiliza los comandos TeX (con algunas excepciones), que se refieren a la escritura de fórmulas. Un ejemplo del código en TeX es:
 ```latex
 \frac{d}{dx}f(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}.
 ```
