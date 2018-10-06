@@ -6,7 +6,7 @@
 2. [Efectos de texto usando arreglos (PDF)](https://drive.google.com/open?id=1i7maqGJcb8Nk5lQf--gsY4vBiIxpFI9M)/YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/2_efectos_arreglos_texto/ESCENAS.md)
 3. [Transformaciones y copiado de textos (PDF)](https://drive.google.com/open?id=1oy8Thm7aWkh705TaEpctCFdqW1D36wAo)/YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/3_transformaciones_texto/ESCENAS.md)
 4. [Herramientas visuales (PDF)](https://drive.google.com/open?id=15hk52wgaR4MeDZSvo8LlgbeWe6K6EXY7)/YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/4_herramientas_visuales/ESCENAS.md)
-5. Introducción a las gráficas YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/5_introducci%C3%B3n_gr%C3%A1ficas/ESCENAS.md)
+5. Introducción a las gráficas/YouTube/[Resumen](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/5_introducci%C3%B3n_gr%C3%A1ficas/ESCENAS.md)
 
 Extras:
 * [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube
