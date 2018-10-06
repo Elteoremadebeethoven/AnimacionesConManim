@@ -100,7 +100,7 @@ class FormulaColor3Mejorada2(Scene):
         self.play(Write(texto))
         self.wait(3)
 ```
-<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/FormulaColorMejorada2.gif" /></p>
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/FormulaColor3Mejorada2.gif" /></p>
 
 ### 
 ```python3
