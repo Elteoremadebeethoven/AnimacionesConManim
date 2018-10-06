@@ -1,4 +1,10 @@
-# 
+# Formato de textos
+Importante: Recuerda que antes de todo se deben importar las paqueterías estandar usando
+```python3
+from big_ol_pile_of_manim_imports import *
+```
+como primera linea.
+
 ## Programas
 
 ### 
