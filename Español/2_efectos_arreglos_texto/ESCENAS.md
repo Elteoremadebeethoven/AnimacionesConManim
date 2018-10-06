@@ -30,7 +30,11 @@ class FormulaColor1(Scene):
         texto[4].set_color("#DC28E2")
         self.play(Write(texto))
         self.wait(2)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/FormulaColor1.gif" /></p>
 
+### 
+```python3
 class FormulaColor2(Scene): 
     def construct(self): 
         texto = TexMobject("x","=","\\frac{a}{b}")
@@ -39,7 +43,11 @@ class FormulaColor2(Scene):
         texto[2].set_color(GREEN)
         self.play(Write(texto))
         self.wait(2)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/FormulaColor2.gif" /></p>
 
+### 
+```python3
 class FormulaColor3(Scene): 
     def construct(self):
         texto = TexMobject("\\sqrt{","\\int_{","a}^","{b}","\\left(","\\frac{x}{y}","\\right)","dx}")
@@ -53,7 +61,11 @@ class FormulaColor3(Scene):
         texto[7].set_color(MAROON)
         self.play(Write(texto))
         self.wait(2)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/FormulaColor3.gif" /></p>
 
+### 
+```python3
 class FormulaColor3Mejorada(Scene): 
     def construct(self): 
         texto = TexMobject("\\sqrt{","\\int_{","a}^","{b}","\\left(","\\frac{x}{y}","\\right)","dx.}")
@@ -67,7 +79,11 @@ class FormulaColor3Mejorada(Scene):
         texto[7].set_color(MAROON)
         self.play(Write(texto))
         self.wait(3)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/FormulaColor3Mejorada.gif" /></p>
 
+### 
+```python3
 class FormulaColor3Mejorada2(Scene): 
     def construct(self): 
         texto = TexMobject("\\sqrt{","\\int_","{a}^","{b}","{\\left(","{x","\\over","y}","\\right)}","d","x",".}")
@@ -83,7 +99,11 @@ class FormulaColor3Mejorada2(Scene):
         texto[9].set_color(GOLD)
         self.play(Write(texto))
         self.wait(3)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/FormulaColorMejorada2.gif" /></p>
 
+### 
+```python3
 class FormulaColor4(Scene): 
     def construct(self): 
         texto = TexMobject("\\sqrt{","\\int_","{a","+","c}^","{b}","{\\left(","{x","\\over","y}","\\right)}","d","x",".}")
@@ -101,14 +121,22 @@ class FormulaColor4(Scene):
         texto[11].set_color(RED)
         self.play(Write(texto))
         self.wait(3)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/FormulaColor4.gif" /></p>
 
+### 
+```python3
 class ColorPorCaracter(Scene):
 	def construct(self):
 		texto = TexMobject("{d","\\over","d","x","}","\\int_","{a}^","{","x","}","f(","t",")d","t","=","f(","x",")")
 		texto.set_color_by_tex("x",RED)
 		self.play(Write(texto))
 		self.wait(2)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/ColorPorCaracter.gif" /></p>
 
+### 
+```python3
 class ColorPorCaracterCorregida(Scene): 
 	def construct(self):
 		texto = TexMobject("{d","\\over","d","x","}","\\int_","{a}^","{","x","}","f(","t",")d","t","=","f(","x",")")
@@ -117,7 +145,11 @@ class ColorPorCaracterCorregida(Scene):
 		texto[8].set_color(WHITE)
 		self.play(Write(texto))
 		self.wait(2)
-	
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/ColorPorCaracterCorregida.gif" /></p>
+
+### 
+```python3
 class ForLista(Scene): 
     def construct(self): #no usar siempre frac
         texto = TexMobject("[0]","[1]","[2]","[3]","[4]","[5]","[6]","[7]")
@@ -125,7 +157,11 @@ class ForLista(Scene):
         	texto[i].set_color(RED)
         self.play(Write(texto))
         self.wait(3)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/ForLista.gif" /></p>
 
+### 
+```python3
 class ForRango1(Scene): 
     def construct(self): #no usar siempre frac
         texto = TexMobject("[0]","[1]","[2]","[3]","[4]","[5]","[6]","[7]")
@@ -133,7 +169,11 @@ class ForRango1(Scene):
         	texto[i].set_color(RED)
         self.play(Write(texto))
         self.wait(3)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/ForRango1.gif" /></p>
 
+### 
+```python3
 class ForRango2(Scene): 
     def construct(self): #no usar siempre frac
         texto = TexMobject("[0]","[1]","[2]","[3]","[4]","[5]","[6]","[7]")
@@ -141,7 +181,11 @@ class ForRango2(Scene):
         	texto[i].set_color(RED)
         self.play(Write(texto))
         self.wait(3)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/ForRango2.gif" /></p>
 
+### 
+```python3
 class For2Variables(Scene): 
     def construct(self): #no usar siempre frac
         texto = TexMobject("[0]","[1]","[2]","[3]","[4]","[5]","[6]","[7]")
@@ -149,7 +193,11 @@ class For2Variables(Scene):
         	texto[i].set_color(color)
         self.play(Write(texto))
         self.wait(3)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/For2Variables.gif" /></p>
 
+### 
+```python3
 class CambioTamanho(Scene):
     def construct(self):
         texto = TexMobject("\\sum_{i=0}^n i=\\frac{n(n+1)}{2}")
@@ -157,7 +205,11 @@ class CambioTamanho(Scene):
         self.wait()
         texto.scale_in_place(2)
         self.wait(2)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/CambioTamanho.gif" /></p>
 
+### 
+```python3
 class AparicionDesaparicionTexto1(Scene):
     def construct(self):
         texto = TextMobject("Texto u objeto")
@@ -166,7 +218,11 @@ class AparicionDesaparicionTexto1(Scene):
         self.wait()
         self.remove(texto)
         self.wait()
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/AparicionDesaparicionTexto1.gif" /></p>
 
+### 
+```python3
 class AparicionDesaparicionTexto2(Scene):
     def construct(self):
         texto = TextMobject("Texto u objeto")
@@ -174,26 +230,42 @@ class AparicionDesaparicionTexto2(Scene):
         self.wait()
         self.play(FadeOut(texto),run_time=1)
         self.wait()
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/AparicionDesaparicionTexto2.gif" /></p>
 
+### 
+```python3
 class EfectoAparicionTexto1(Scene):
     def construct(self):
         texto = TextMobject("Texto u objeto")
         self.play(FadeInFromDown(texto),run_time=1)
         self.wait()
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/EfectoAparicionTexto1.gif" /></p>
 
+### 
+```python3
 class EfectoAparicionTexto2(Scene):
     def construct(self):
         texto = TextMobject("Texto u objeto")
         self.play(GrowFromCenter(texto),run_time=1)
         self.wait()
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/EfectoAparicionTexto2.gif" /></p>
 
+### 
+```python3
 class EfectoAparicionTexto3(Scene):
     def construct(self):
         texto = TextMobject("Texto u objeto")
         self.play(ShowCreation(texto),run_time=1)
         self.wait()
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/EfectoAparicionTexto3.gif" /></p>
 
-class ColoreadoTexto(Scene):
+### 
+```python3
+class cc(Scene):
     def construct(self):
         texto = TextMobject("Texto u objeto")
         self.add(texto)
@@ -205,7 +277,11 @@ class ColoreadoTexto(Scene):
                 run_time = 0.12
             ))
         self.wait(0.5)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/EfectoAparicionTexto1.gif" /></p>
 
+### 
+```python3
 class Tachado1(Scene):
     def construct(self):
         texto = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
@@ -215,7 +291,11 @@ class Tachado1(Scene):
         self.wait(.5)
         self.play(ShowCreation(tache))
         self.wait(2)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/Tachado1.gif" /></p>
 
+### 
+```python3
 class Tachado2(Scene):
     def construct(self):
         texto = TexMobject("\\sum_{i=1}^{\infty}i","=","-\\frac{1}{2}")
@@ -226,7 +306,11 @@ class Tachado2(Scene):
         self.wait(.5)
         self.play(ShowCreation(tache))
         self.wait(2)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/Tachado2.gif" /></p>
 
+### 
+```python3
 class Encuadre1(Scene):
     def construct(self):
         texto=TexMobject(
@@ -238,7 +322,11 @@ class Encuadre1(Scene):
         self.wait(.5)
         self.play(ShowCreation(marco))
         self.wait(2)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/Encuadre1.gif" /></p>
 
+### 
+```python3
 class Encuadre2(Scene):
     def construct(self):
         texto=TexMobject(
@@ -252,7 +340,11 @@ class Encuadre2(Scene):
         self.wait(.5)
         self.play(ShowCreation(marco))
         self.wait(2)
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/Encuadre2.gif" /></p>
 
+### 
+```python3
 class Llave(Scene):
     def construct(self):
         texto=TexMobject(
@@ -271,15 +363,6 @@ class Llave(Scene):
             FadeIn(t_i)
             )
         self.wait()
-````
-
-
-
-###
-```python3
-
-
-````
-
-<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/.gif" /></p>
+```
+<p align="center"><img src ="/Español/2_efectos_arreglos_texto/gifs/Llave.gif" /></p>
 
