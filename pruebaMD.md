@@ -54,4 +54,5 @@ class Grafica1v2(GraphScene):
         )
         self.wait()
 ```
+
 <p align="center"><img src ="/Grafica2.gif" /></p>
