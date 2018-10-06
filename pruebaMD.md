@@ -28,6 +28,7 @@ class Grafica1(GraphScene):
         self.wait()
 ```
 <p align="center"><img src ="/Grafica1.gif" /></p>
+
 ### Gráfica 1 versión 2
 ```python3
 class Grafica1v2(GraphScene):
