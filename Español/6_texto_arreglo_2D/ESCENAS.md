@@ -1,4 +1,4 @@
-# Texto como arreglos de dos dimensiones
+# Textos como arreglos de dos dimensiones
 ## Programas
 
 ### 
