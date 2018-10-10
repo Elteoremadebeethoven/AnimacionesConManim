@@ -15,7 +15,7 @@
 11. Animaciones de area bajo la curva/YouTube/Escenas
 12. Introducción a las fórmulas químicas/YouTube/Escenas
 13. Fórmulas desarrolladas (Química orgánica)/YouTube/Escenas
-14. Sincronizar animaciones con funciones.
+14. Sincronizar animaciones con funciones/YouTube/Escenas
 
 Extras:
 * [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube
