@@ -8,9 +8,20 @@
 4. [Herramientas visuales (PDF)](https://drive.google.com/open?id=15hk52wgaR4MeDZSvo8LlgbeWe6K6EXY7)/YouTube/[Escenas](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/4_herramientas_visuales/ESCENAS.md)
 5. Introducción a las gráficas/YouTube/[Escenas](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/5_introducci%C3%B3n_gr%C3%A1ficas/ESCENAS.md)
 6. Textos como arreglos de dos dimensiones/YouTube/[Escenas](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/6_texto_arreglo_2D/ESCENAS.md)
+7. Rotación de objetos/YouTube/Escenas
+8. Matrices/YouTube/Escenas
+9. Planos/YouTube/Escenas
+10. Graficar funciones por partes/YouTube/Escenas
+11. Animaciones de area bajo la curva/YouTube/Escenas
+12. Introducción a las fórmulas químicas/YouTube/Escenas
+13. Fórmulas desarrolladas (Química orgánica)/YouTube/Escenas
+14. Sincronizar animaciones con funciones.
 
 Extras:
 * [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube
+* Cómo añadir más tipos de fuentes (y otras paqueterías)
+* Personalizar colores
+* Más efectos en textos
 
 ## ¿Qué es Manim?
 [Manim](https://github.com/3b1b/manim) es una herramienta gratuita de animación creada por [Grant Sanderson](http://www.3blue1brown.com/) ([twitter](https://twitter.com/3blue1brown?lang=es)), matemático de Stantford y dueño del canal de YouTube [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw). Está especializada en temas científicos, principalmente de carácter matemático, por lo que está basada en comandos de LaTeX (principalmente en TeX).
