@@ -20,7 +20,7 @@ class Texto2Dv1(Scene):
                 )
         self.play(ReplacementTransform(texto[0].copy(),texto[3]),path_arc = -PI/2)
         self.wait()
-````
+```
 <p align="center"><img src ="/Español/6_texto_arreglo_2D/gifs/Texto2Dv1.gif" /></p>
 
 
@@ -45,5 +45,5 @@ class Texto2Dv2(Scene):
                 )
         self.play(ReplacementTransform(texto[0][0].copy(),texto[1][0]),path_arc = -PI/2)
         self.wait()
-````
-
+```
+<p align="center"><img src ="/Español/6_texto_arreglo_2D/gifs/Texto2Dv2.gif" /></p>
