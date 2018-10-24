@@ -1,0 +1,62 @@
+# Instación en GNU/Linux
+
+Instalación de LaTeX:
+
+```sh
+$ sudo apt-get install texlive-full
+```
+
+Instalación de pip3:
+
+```sh
+$ sudo apt-get install python3-pip
+```
+Instalación de ffmpeg:
+
+```sh
+$ sudo apt-get install ffmpeg
+```
+
+Instalación de sox:
+
+```sh
+$ sudo apt-get install sox
+```
+
+Instalación de paqueterías previas para instalar Pycairo:
+
+```sh
+$ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
+```
+
+Instalación de pycairo:
+
+```sh
+$ pip3 install pycairo
+```
+
+Instalación de requerimientos:
+
+```sh
+/manim$ python3 -m pip install -r requirements.txt
+```
+
+Cambiar nombre al archivo constants.py, en la linea que dice:
+"Dropbox (3Blue1Brown)/3Blue1Brown Team Folder"
+por la dirección de una carpeta dedicada los videos de manim. 
+
+<p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/nom.png" /></p>
+
+Recomiendo que sea una carpeta que esté en el directorio principal, por ejemplo "/vmanim".
+
+<p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/carp.png" /></p>
+
+Para comprobar que todo funciona perfectamente moverse a la carpeta de manim-master y escribir:
+
+```sh
+$ python3 extract_scene.py example_scenes.py SquareToCircle -pl
+```
+
+Ese código debería generar algo como esto:
+
+<p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/compilacion.gif" /></p>
