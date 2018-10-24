@@ -196,6 +196,50 @@ class PosicionRelativa1(Scene):
 
 ### 
 ```python3
+class PosicionRelativa2(Scene):
+    def construct(self):
+        textoM = TextMobject("Texto relativo.")
+        textoC = TextMobject("Texto de referencia.")
+        textoM.shift(UP*0.1) #La referencia es el mismo textoM, texto u objeto
+        self.play(Write(textoM),Write(textoC))
+        self.wait(3)
+```
+<p align="center"><img src ="/Español/1_formato_textos/gifs/PosicionRelativa2.png" /></p>
+
+### 
+```python3
+class Rotacion(Scene):
+    def construct(self):
+        textoM = TextMobject("Texto relativo.")
+        textoC = TextMobject("Texto de referencia.")
+        textoM.shift(UP)
+        textoM.rotate(PI/4) #El centro es el centro de area del texto, en radianes, texto u objeto
+        self.play(Write(textoM),Write(textoC))
+        self.wait(2)
+        textoM.rotate(PI/4)
+        self.wait(2)
+        textoM.rotate(PI/4)
+        self.wait(2)
+        textoM.rotate(PI/4)
+        self.wait(2)
+        textoM.rotate(PI)
+        self.wait(2)
+```
+<p align="center"><img src ="/Español/1_formato_textos/gifs/Rotacion.gif" /></p>
+
+### 
+```python3
+class Espejo(Scene):
+    def construct(self):
+        textoM = TextMobject("Texto referencia.")
+        textoM.flip(UP) # Texto y objeto
+        self.play(Write(textoM))
+        self.wait(2)
+```
+<p align="center"><img src ="/Español/1_formato_textos/gifs/Espejo.gif" /></p>
+
+### 
+```python3
 class Tamanhos(Scene):
 	def construct(self):
 		textoHuge = TextMobject("{\\Huge Huge Texto 012.\\#!?} Texto normal")
