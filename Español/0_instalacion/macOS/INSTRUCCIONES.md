@@ -45,7 +45,7 @@ get_pip.py
 ...
 ...
 ```
-Una vez corroborada la ubicación del archivo lo compilamos usando:
+Una vez corroborada la ubicación del archivo lo compilamos usando "python3 get_pip.py":
 ```sh
 MacPro-de-TB: Documents Alex$ python3 get_pip.py
 ```
