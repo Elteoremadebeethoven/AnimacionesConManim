@@ -101,3 +101,5 @@ O bien en la carpeta que definiste en constants.py en una subcarpeta llamada "an
 ```
 Videos/example_scenes/WriteStuff/420p15
 ```
+
+El 420p15 se refiere a la calidad del video a la que fue exportado. Dependerá de la versión de manim que descargaste el lugar donde se guarde el archivo.
