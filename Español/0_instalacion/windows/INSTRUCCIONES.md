@@ -13,7 +13,7 @@ Yo recomiendo [Sublime Text](https://www.sublimetext.com/).
 Descomprimir el archivo donde el usuario desee (en este ejemplo lo descomprimiré en Documentos).
 
 ## Modificar el archivo constants.py
-Cambiar nombre al archivo constants.py, en la linea que dice:
+Cambiar el código al archivo constants.py, en la linea que dice:
 "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder"
 por la dirección de una carpeta dedicada los videos de manim, yo recomiendo la carpeta de videos "Videos" en el directorio principal.
 
