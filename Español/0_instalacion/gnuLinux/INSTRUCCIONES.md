@@ -85,11 +85,11 @@ Ese código debería generar algo como esto:
 El video se almacenará ya sea en la misma carpeta de "manim" (en una subcarpeta que se va a llamar igual al archivo .py) o bien en la subcarpeta "animations" que estará dentro de la carpeta que definiste en constants.py (que en nuestro ejemplo es "vmanim"). Para el ejemplo de "SquareToCircle" el video estará ya sea en
 
 ```
-~/manim/SquareToCircle/420p15
+~/manim/example_scenes/SquareToCircle/420p15
 ```
 o en 
 ```
-~/vmanim/animations/SquareToCircle/420p15
+~/vmanim/example_scenes/animations/SquareToCircle/420p15
 ```
 
 El 420p15 se refiere a la calidad del video a la que fue exportado. Dependerá de la versión de manim que descargaste el lugar donde se guarde el archivo.
