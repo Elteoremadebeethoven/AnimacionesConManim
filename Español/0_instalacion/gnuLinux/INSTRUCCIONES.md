@@ -64,7 +64,7 @@ Luego escribir:
 
 # Ejecución de Manim
 
-Cambiar nombre al archivo constants.py, en la linea que dice:
+Cambiar el código del archivo constants.py, en la linea que dice:
 "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder"
 por la dirección de la carpeta dedicada los videos de manim (en nuestro ejemplo es "vmanim"). 
 
