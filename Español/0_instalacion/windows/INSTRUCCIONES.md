@@ -46,7 +46,7 @@ Descarga e instala de manera normal y añade la carpeta de instalación a la var
 
 ## Instalar Pycairo
 1. Ir a esta [página](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
-2. Buscar pycairo (pulsa F3 y escirbe pycairo para encontrar más rápido).
+2. Buscar pycairo (pulsa F3 y escirbe pycairo para encontrarlo más rápido).
 3. Descarga todas las versiones para Python 3 (dependiendo si tu PC es de 64 o 32 bits).
 4. Ir a la ubicación de la carpeta de Python 3 y copia la versión más reciente del archivo .whl a la carpeta.
 5. Abre la terminal y muevete a la dirección de la carpeta de Python 3.
