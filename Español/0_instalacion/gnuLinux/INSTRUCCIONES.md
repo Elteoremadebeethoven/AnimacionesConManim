@@ -23,7 +23,7 @@ por la dirección de la carpeta dedicada los videos de manim (en nuestro ejemplo
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/nom.png" /></p>
 
 ## Instalación usando la terminal:
-Abrir terninal y copiar los siguientes comandos.
+Abrir terminal y copiar los siguientes comandos.
 ### Instalación de LaTeX:
 
 ```sh
