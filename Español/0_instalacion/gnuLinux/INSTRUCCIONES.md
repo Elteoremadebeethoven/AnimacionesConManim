@@ -17,36 +17,36 @@
 $ sudo apt-get install texlive-full
 ```
 
-Instalación de pip3:
+## Instalación de pip3:
 
 ```sh
 $ sudo apt-get install python3-pip
 ```
-Instalación de ffmpeg:
+## Instalación de ffmpeg:
 
 ```sh
 $ sudo apt-get install ffmpeg
 ```
 
-Instalación de sox:
+## Instalación de sox:
 
 ```sh
 $ sudo apt-get install sox
 ```
 
-Instalación de paqueterías previas para instalar Pycairo:
+## Instalación de paqueterías previas para instalar ycairo:
 
 ```sh
 $ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
 ```
 
-Instalación de pycairo:
+## Instalación de pycairo:
 
 ```sh
 $ pip3 install pycairo
 ```
 
-Instalación de requerimientos:
+## Instalación de requerimientos:
 
 ```sh
 ~/manim$ python3 -m pip install -r requirements.txt
