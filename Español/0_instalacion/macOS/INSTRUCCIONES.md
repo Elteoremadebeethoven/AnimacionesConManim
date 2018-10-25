@@ -14,7 +14,7 @@ Copiar el código de la página oficial de [Homebrew](https://brew.sh/index_es) 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP1.gif" /></p>
 
 ## Instalar LaTeX (versión completa)
-Ir a la página oficial de [MacTeX](http://www.tug.org/mactex/), descargar el .pkg e instalar la versión completa ([video ayuda](https://www.youtube.com/watch?v=XlxiytGeWds)).
+Ir a la página oficial de [MacTeX](http://www.tug.org/mactex/), descargar el .pkg e instalar la versión completa ([video ayuda](https://www.youtube.com/watch?v=5CNmIaRxS20)).
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP2.gif" /></p>
 
