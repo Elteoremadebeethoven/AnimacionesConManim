@@ -90,7 +90,7 @@ MacPro-de-TB: manim-master Alex$
 Luego copiar y pegar el siguiente comando (copiar lo que está a la derecha del $):
 
 ```sh
-MacPro-de-TB: manim-master Alex$ python3 -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 Y continuar con la instalación
 
@@ -118,7 +118,7 @@ Y guardar cambios.
 Con la terminal posicionada en la carpeta manim-master copiar y pegar el siguiente código:
 
 ```sh
-MacPro-de-TB: manim-master Alex$ python3 extract_scene.py example_scenes.py WriteStuff -pl
+python3 extract_scene.py example_scenes.py WriteStuff -pl
 ```
 
 Esto se deberá ver como:
