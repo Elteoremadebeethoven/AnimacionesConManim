@@ -21,7 +21,7 @@ por la dirección de una carpeta dedicada los videos de manim, yo recomiendo la 
 Instalar la versión completa de [MikTeX](https://miktex.org/download).
 1. Vas a "Downloads", luego a "All donwloads".
 2. Seleccionar "Net Installar" de 32 bits o 64 bits dependiendo de tu PC.
-3. Descargar e instalar, es un proceso que puede durar varias horas.
+3. Descargar e instalar, es un proceso que puede durar varias horas ([ver video ayuda](https://www.youtube.com/watch?v=yPnfHRE_W_g) del minuto 0:00 hasta el 6:19, lo demás no se necesita).
 
 ## Instalar Python 3.
 Ir a la página oficial de [Python](https://www.python.org/), luego a Donwloads y descargar alguna versión de Python superior a la 3.6 (recomiendo la versión más reciente), el instalador debe decir "Windows x86-64 executable installer" e instalar.
