@@ -54,7 +54,7 @@ Recomiendo que sea una carpeta que esté en el directorio principal, por ejemplo
 Para comprobar que todo funciona perfectamente moverse a la carpeta de manim-master y escribir:
 
 ```sh
-$ python3 extract_scene.py example_scenes.py SquareToCircle -pl
+/manim$ python3 extract_scene.py example_scenes.py SquareToCircle -pl
 ```
 
 Ese código debería generar algo como esto:
