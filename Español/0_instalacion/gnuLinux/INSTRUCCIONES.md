@@ -38,7 +38,7 @@ $ pip3 install pycairo
 Instalación de requerimientos:
 
 ```sh
-/manim$ python3 -m pip install -r requirements.txt
+~/manim$ python3 -m pip install -r requirements.txt
 ```
 
 Cambiar nombre al archivo constants.py, en la linea que dice:
@@ -54,7 +54,7 @@ Recomiendo que sea una carpeta que esté en el directorio principal, por ejemplo
 Para comprobar que todo funciona perfectamente moverse a la carpeta de manim-master y escribir:
 
 ```sh
-/manim$ python3 extract_scene.py example_scenes.py SquareToCircle -pl
+~/manim$ python3 extract_scene.py example_scenes.py SquareToCircle -pl
 ```
 
 Ese código debería generar algo como esto:
