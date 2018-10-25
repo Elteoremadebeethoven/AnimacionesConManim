@@ -6,7 +6,7 @@ Ver video tutorial en YouTube.
 * Instalar algún editor de texto plano (recomiendo SublimteText, ver [video de instalación](https://www.youtube.com/watch?v=qqlLQ-5jH0c)).
 * Descargar Manim del [repositorio oficial](https://github.com/3b1b/manim), click en "Clone or download" y luego click en "Download ZIP".
 * Descomprimir el archivo en "Documents".
-* Abrir la terminal (se puede usar el buscador Spotlight).
+* Abrir la terminal (se puede usar el buscador Spotlight escribiendo "terminal").
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/terminal.png" /></p>
 
