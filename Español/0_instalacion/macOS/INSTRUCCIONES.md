@@ -52,27 +52,27 @@ Y continuar con la instalación.
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP4.gif" /></p>
 
 ## Instalar paqueterías usando Homebrew
-Copiar y pegar cada uno de los siguientes comandos:
+Copiar y pegar cada uno de los siguientes comandos a la terminal:
 
 ### FFmpeg
 ```sh
-MacPro-de-TB: Documents Alex$ brew install ffmpeg
+brew install ffmpeg
 ```
 ### Sox
 ```sh
-MacPro-de-TB: Documents Alex$ brew install sox
+brew install sox
 ```
 ### Paqueterías extra
 ```sh
-MacPro-de-TB: Documents Alex$ brew install cairo --use-clang
+brew install cairo --use-clang
 ```
 
 ```sh
-MacPro-de-TB: Documents Alex$ brew install py2cairo
+brew install py2cairo
 ```
 
 ```sh
-MacPro-de-TB: Documents Alex$ brew install pkg-config
+brew install pkg-config
 ```
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP5.gif" /></p>
@@ -85,7 +85,7 @@ MacPro-de-TB: Documents Alex$ cd manim-master
 MacPro-de-TB: manim-master Alex$
 ```
 
-Luego copiar y pegar el siguiente comando:
+Luego copiar y pegar el siguiente comando (copiar lo que está a la derecha del $):
 
 ```sh
 MacPro-de-TB: manim-master Alex$ python3 -m pip install -r requirements.txt
