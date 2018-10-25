@@ -7,6 +7,9 @@
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/manimDescarga.png" /></p>
 
 * Descomprimir carpeta manim-master preferentemente en el directorio principal y cambiar nombre de la carpeta a "manim".
+* Crear otra carpeta (preferentemente en el directorio principal) dedicada a los videos de Manim, por ejemplo "vmanim".
+
+<p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/carp.png" /></p>
 
 ## Instalación de LaTeX:
 
@@ -53,13 +56,9 @@ Instalación de requerimientos:
 
 Cambiar nombre al archivo constants.py, en la linea que dice:
 "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder"
-por la dirección de una carpeta dedicada los videos de manim. 
+por la dirección de la carpeta dedicada los videos de manim (en nuestro ejemplo es "vmanim"). 
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/nom.png" /></p>
-
-Recomiendo que sea una carpeta que esté en el directorio principal, por ejemplo "vmanim".
-
-<p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/carp.png" /></p>
 
 Para ejecutar Manim por primera vez hay que ir a la carpeta de manim y escribir:
 
