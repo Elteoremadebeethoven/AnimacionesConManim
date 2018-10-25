@@ -16,7 +16,7 @@ Ver video tutorial en YouTube.
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/carp.png" /></p>
 
 ### 2. Modificar el archivo constants.py
-Cambiar el código del archivo constants.py, en la linea que dice:
+Cambiar el código del archivo constants.py que está en la carpeta de "manim", en la linea que dice:
 "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder"
 por la dirección de la carpeta dedicada los videos de manim (en nuestro ejemplo es "vmanim"). 
 
