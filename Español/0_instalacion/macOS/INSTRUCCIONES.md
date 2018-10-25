@@ -21,22 +21,23 @@ Se puede usar el buscador Spotlight escribiendo "terminal"
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/terminal.png" /></p>
 
-## Instalar Homebrew
+## Instalación de Manim
+### Instalar Homebrew
 Copiar el código de la página oficial de [Homebrew](https://brew.sh/index_es) y pegarlo en la terminal (y dar enter).
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP1.gif" /></p>
 
-## Instalar LaTeX (versión completa)
+### Instalar LaTeX (versión completa)
 Ir a la página oficial de [MacTeX](http://www.tug.org/mactex/), descargar el .pkg e instalar la versión completa ([video ayuda](https://www.youtube.com/watch?v=5CNmIaRxS20)).
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP2.gif" /></p>
 
-## Instalar Python 3
+### Instalar Python 3
 Ir a la página oficial de [Python](https://www.python.org/), a la zona de descargas y descargar la versión estable más reciente dependiendo de la versión que uses de Mac ([video ayuda](https://www.youtube.com/watch?v=0hGzGdRQeak)).
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP3.gif" /></p>
 
-## Instalar pip3
+### Instalar pip3
 Ir a la página oficial de [pip](https://pip.pypa.io/en/stable/installing/), ir al archivo get-pip.py, copiar el texto en un documento de texto plano y guardar como get_pip.py en Documents.
 
 Posteriormente moverse a la carpeta Documents usando la terminal con el comando "cd Documents":
@@ -64,18 +65,18 @@ Y continuar con la instalación.
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP4.gif" /></p>
 
-## Instalar paqueterías usando Homebrew
+### Instalar paqueterías usando Homebrew
 Copiar y pegar cada uno de los siguientes comandos a la terminal:
 
-### FFmpeg
+#### FFmpeg
 ```sh
 brew install ffmpeg
 ```
-### Sox
+#### Sox
 ```sh
 brew install sox
 ```
-### Paqueterías extra
+#### Paqueterías extra
 ```sh
 brew install cairo --use-clang
 ```
@@ -90,7 +91,7 @@ brew install pkg-config
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP5.gif" /></p>
 
-## Instalar lista requirements.txt
+### Instalar lista requirements.txt
 Dentro de la carpeta "Documents" nos desplazamos a la carpeta de "manim-master" usando la terminal con el comando:
 
 ```sh
