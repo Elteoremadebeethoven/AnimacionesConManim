@@ -61,7 +61,7 @@ Recomiendo que sea una carpeta que esté en el directorio principal, por ejemplo
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/carp.png" /></p>
 
-Para ejecutar manim por primera vez hay que ir a la carpeta de manim y escribir:
+Para ejecutar Manim por primera vez hay que ir a la carpeta de manim y escribir:
 
 ```sh
 ~/manim$ python3 extract_scene.py example_scenes.py SquareToCircle -pl
@@ -73,7 +73,7 @@ Ese código debería generar algo como esto:
 
 # Almacenamiento
 
-El video se almacenará ya sea en la misma carpeta de "manim" (en una carpeta que se va a llamar igual al archivo .py) o bien en la carpeta "animations" que estará dentro de la carpeta que definiste en constants.py (que en nuestro ejemplo es "vmanim"). Para el ejemplo de "SquareToCircle" el video estará ya sea en
+El video se almacenará ya sea en la misma carpeta de "manim" (en una subcarpeta que se va a llamar igual al archivo .py) o bien en la subcarpeta "animations" que estará dentro de la carpeta que definiste en constants.py (que en nuestro ejemplo es "vmanim"). Para el ejemplo de "SquareToCircle" el video estará ya sea en
 
 ```
 ~/manim/SquareToCircle/420p15
