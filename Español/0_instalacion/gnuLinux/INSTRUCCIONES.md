@@ -2,10 +2,11 @@
 
 ## Descargar Manim 
 
-*Ir al [repositorio oficial](https://github.com/3b1b/manim), click en "Clone or download" y luego click en "Download ZIP".
-*Descomprimir carpeta manim-master preferentemente en el directorio principal y cambiar nombre de la carpeta a "manim".
+* Ir al [repositorio oficial](https://github.com/3b1b/manim), click en "Clone or download" y luego click en "Download ZIP".
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/manimDescarga.png" /></p>
+
+* Descomprimir carpeta manim-master preferentemente en el directorio principal y cambiar nombre de la carpeta a "manim".
 
 ## Instalación de LaTeX:
 
