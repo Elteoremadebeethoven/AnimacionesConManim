@@ -41,6 +41,8 @@ Instalación de requerimientos:
 ~/manim$ python3 -m pip install -r requirements.txt
 ```
 
+# Ejecución de Manim
+
 Cambiar nombre al archivo constants.py, en la linea que dice:
 "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder"
 por la dirección de una carpeta dedicada los videos de manim. 
@@ -60,6 +62,8 @@ Para comprobar que todo funciona perfectamente moverse a la carpeta de manim-mas
 Ese código debería generar algo como esto:
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/compilacion.gif" /></p>
+
+# Almacenamiento
 
 El video se almacenará ya sea en la misma carpeta de "manim" (en una carpeta que se va a llamar igual al archivo .py) o bien en la carpeta "animations" que estará dentro de la carpeta que definiste en constants.py (que en nuestro ejemplo es "vmanim"). Para el ejemplo de "SquareToCircle" el video estará ya sea en
 
