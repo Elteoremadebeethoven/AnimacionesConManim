@@ -53,7 +53,7 @@ Recomiendo que sea una carpeta que esté en el directorio principal, por ejemplo
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/carp.png" /></p>
 
-Para comprobar que todo funciona perfectamente moverse a la carpeta de manim-master y escribir:
+Para ejecutar manim por primera vez hay que ir a la carpeta de manim y escribir:
 
 ```sh
 ~/manim$ python3 extract_scene.py example_scenes.py SquareToCircle -pl
