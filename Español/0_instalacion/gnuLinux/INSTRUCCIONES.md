@@ -1,5 +1,7 @@
 # Instación en GNU/Linux
 
+Ver video tutorial en YouTube.
+
 ## Descarga de Manim 
 
 * Ir al [repositorio oficial](https://github.com/3b1b/manim), click en "Clone or download" y luego click en "Download ZIP".
