@@ -4,7 +4,7 @@ Ver video tutorial en YouTube.
 
 ## Pasos previos a la instalción
 ### 1. Instalar algún editor de texto plano 
-Recomiendo SublimteText, ver [video de instalación](https://www.youtube.com/watch?v=qqlLQ-5jH0c)).
+Recomiendo SublimteText, ver [video de instalación](https://www.youtube.com/watch?v=qqlLQ-5jH0c).
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarSublimeText.gif" /></p>
 
