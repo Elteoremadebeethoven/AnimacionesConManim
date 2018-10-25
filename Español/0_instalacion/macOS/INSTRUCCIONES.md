@@ -141,11 +141,11 @@ Esto se deberá ver como:
 El video se almacenará ya sea en la misma carpeta de "manim-master" (en una subcarpeta que se va a llamar igual al archivo .py) o bien en la subcarpeta "animations" que estará dentro de la carpeta que definiste en constants.py (que en nuestro ejemplo es "Movies"). Para el ejemplo de "WriteStuff" el video estará ya sea en
 
 ```
-manim-master/WriteStuff/420p15
+manim-master/example_scenes/WriteStuff/420p15
 ```
 o en 
 ```
-Movies/animations/WriteStuff/420p15
+Movies/animations/example_scenes/WriteStuff/420p15
 ```
 
 El 420p15 se refiere a la calidad del video a la que fue exportado. Dependerá de la versión de manim que descargaste el lugar donde se guarde el archivo.
