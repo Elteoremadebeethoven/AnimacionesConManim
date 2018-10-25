@@ -19,7 +19,7 @@ Ir a la página oficial de [MacTeX](http://www.tug.org/mactex/), descargar el .p
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP2.gif" /></p>
 
 ## Instalar Python 3
-Ir a la página oficial de [Python](https://www.python.org/), a la zona de descargas y descargar la versión estable más reciente dependiendo de la versión que uses de Mac.
+Ir a la página oficial de [Python](https://www.python.org/), a la zona de descargas y descargar la versión estable más reciente dependiendo de la versión que uses de Mac ([video ayuda](https://www.youtube.com/watch?v=0hGzGdRQeak)).
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP3.gif" /></p>
 
