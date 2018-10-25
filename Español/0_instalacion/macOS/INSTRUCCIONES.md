@@ -87,7 +87,7 @@ MacPro-de-TB: Documents Alex$ cd manim-master
 MacPro-de-TB: manim-master Alex$
 ```
 
-Luego copiar y pegar el siguiente comando (copiar lo que está a la derecha del $):
+Luego copiar y pegar el siguiente comando:
 
 ```sh
 python3 -m pip install -r requirements.txt
