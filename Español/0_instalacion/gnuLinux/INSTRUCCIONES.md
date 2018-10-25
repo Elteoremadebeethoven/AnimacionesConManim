@@ -13,36 +13,38 @@ Ver video tutorial en YouTube.
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/carp.png" /></p>
 
-## Instalación de LaTeX:
+## Instalación usando la terminal:
+Abrir terninal y copiar los siguientes comandos.
+### Instalación de LaTeX:
 
 ```sh
 $ sudo apt-get install texlive-full
 ```
 
-## Instalación de pip3:
+### Instalación de pip3:
 
 ```sh
 $ sudo apt-get install python3-pip
 ```
-## Instalación de ffmpeg:
+### Instalación de ffmpeg:
 
 ```sh
 $ sudo apt-get install ffmpeg
 ```
 
-## Instalación de sox:
+### Instalación de sox:
 
 ```sh
 $ sudo apt-get install sox
 ```
 
-## Instalación de paqueterías previas para instalar pycairo:
+### Instalación de paqueterías previas para instalar pycairo:
 
 ```sh
 $ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
 ```
 
-## Instalación de pycairo:
+### Instalación de pycairo:
 
 ```sh
 $ pip3 install pycairo
