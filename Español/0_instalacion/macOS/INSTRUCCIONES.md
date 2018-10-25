@@ -2,16 +2,16 @@
 
 Ver video tutorial en YouTube.
 
-## Recomendaciones a la hora de instalar Manim
-* Instalar algún editor de texto plano (recomiendo SublimteText, ver [video de instalación](https://www.youtube.com/watch?v=qqlLQ-5jH0c)).
-
-<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarManim.gif" /></p>
-
-* Descargar Manim del [repositorio oficial](https://github.com/3b1b/manim), click en "Clone or download" y luego click en "Download ZIP".
+## Pasos previos a la instalción
+1. Instalar algún editor de texto plano (recomiendo SublimteText, ver [video de instalación](https://www.youtube.com/watch?v=qqlLQ-5jH0c)).
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarSublimeText.gif" /></p>
 
-* Descomprimir el archivo en "Documents".
+2. Descargar Manim del [repositorio oficial](https://github.com/3b1b/manim), click en "Clone or download" y luego click en "Download ZIP".
+
+<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarManim.gif" /></p>
+
+3 Descomprimir el archivo en "Documents".
 * Abrir la terminal (se puede usar el buscador Spotlight escribiendo "terminal").
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/terminal.png" /></p>
