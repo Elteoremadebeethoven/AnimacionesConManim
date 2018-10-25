@@ -61,4 +61,14 @@ Ese código debería generar algo como esto:
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/compilacion.gif" /></p>
 
-El video se almacenará ya sea en la misma carpeta de "manim" (en una carpeta que se va a llamar igual al archivo .py) o bien en la carpeta "animations" que estará dentro de la carpeta que definiste en constants.py (que en nuestro ejemplo es "vmanim"). Para el ejemplo de "SquareToCircle" el video estará ya sea en "manim/SquareToCircle/420p" o en "vmanim/animations/SquareToCircle/420p", el 420p se refiere a la calidad del video a la que fue exportado. Dependerá de la versión de manim que descargaste el lugar donde se guarde el archivo.
+El video se almacenará ya sea en la misma carpeta de "manim" (en una carpeta que se va a llamar igual al archivo .py) o bien en la carpeta "animations" que estará dentro de la carpeta que definiste en constants.py (que en nuestro ejemplo es "vmanim"). Para el ejemplo de "SquareToCircle" el video estará ya sea en
+
+```
+manim/SquareToCircle/420p15
+```
+o en 
+```
+vmanim/animations/SquareToCircle/420p15
+```
+
+El 420p15 se refiere a la calidad del video a la que fue exportado. Dependerá de la versión de manim que descargaste el lugar donde se guarde el archivo.
