@@ -16,7 +16,23 @@ Click en "Clone or download" y luego click en "Download ZIP".
 ### 3. Descomprimir el archivo (de preferencia en "Documents").
 Aunque puede ser en cualquier lugar que desees, se usará "Documents" para este ejemplo.
 
-### 4. Abrir la terminal 
+## 4. Modificar el archivo constants.py
+Abrir el archivo constants.py usando un editor de texto y cambiar el código que dice "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder" por la dirección de otra carpeta dedicada a los archivos de Manim, yo recomiendo usar 
+
+```
+/Users/NombrePropietario/Movies
+```
+
+o símplemente 
+
+```
+Movies
+```
+Y guardar cambios.
+
+<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP7.gif" /></p>
+
+### 5. Abrir la terminal 
 Se puede usar el buscador Spotlight escribiendo "terminal"
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/terminal.png" /></p>
@@ -110,23 +126,6 @@ Y continuar con la instalación
 
 # Ejecución de Manim
 
-## Modificar el archivo constants.py
-Abrir el archivo constants.py usando un editor de texto y cambiar el código que dice "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder" por la dirección de otra carpeta dedicada a los archivos de Manim, yo recomiendo usar 
-
-```
-/Users/NombrePropietario/Movies
-```
-
-o símplemente 
-
-```
-Movies
-```
-Y guardar cambios.
-
-<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP7.gif" /></p>
-
-## Compilación
 Con la terminal posicionada en la carpeta manim-master copiar y pegar el siguiente código:
 
 ```sh
