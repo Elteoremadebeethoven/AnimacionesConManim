@@ -19,7 +19,7 @@ por la dirección de una carpeta dedicada los videos de manim, yo recomiendo la 
 
 ## Instalación de LaTeX
 Instalar la versión completa de [MikTeX](https://miktex.org/download).
-1. Vas a "Downloads", luego a All "donwloads".
+1. Vas a "Downloads", luego a "All donwloads".
 2. Seleccionar "Net Installar" de 32 bits o 64 bits dependiendo de tu PC.
 3. Descargar e instalar, es un proceso que puede durar varias horas.
 
