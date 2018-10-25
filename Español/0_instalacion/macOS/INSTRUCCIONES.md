@@ -33,7 +33,7 @@ MacPro-de-TB: ~ Alex$ cd Documents
 MacPro-de-TB: Documents Alex$
 ```
 
-Para corroborar que el archivo se encuentra ahí escribir:
+Para corroborar que el archivo se encuentra ahí hay que escribir escribir "ls":
 
 ```sh
 MacPro-de-TB: Documents Alex$ ls
