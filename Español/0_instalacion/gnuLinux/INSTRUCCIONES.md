@@ -34,7 +34,7 @@ $ sudo apt-get install ffmpeg
 $ sudo apt-get install sox
 ```
 
-## Instalación de paqueterías previas para instalar ycairo:
+## Instalación de paqueterías previas para instalar pycairo:
 
 ```sh
 $ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
