@@ -16,7 +16,7 @@ Click en "Clone or download" y luego click en "Download ZIP".
 ### 3. Descomprimir el archivo (de preferencia en "Documents").
 Aunque puede ser en cualquier lugar que desees, se usará "Documents" para este ejemplo.
 
-## 4. Modificar el archivo constants.py
+### 4. Modificar el archivo constants.py
 Abrir el archivo constants.py usando un editor de texto y cambiar el código que dice "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder" por la dirección de otra carpeta dedicada a los archivos de Manim, yo recomiendo usar 
 
 ```
