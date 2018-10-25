@@ -13,7 +13,9 @@ Click en "Clone or download" y luego click en "Download ZIP".
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarManim.gif" /></p>
 
-### 3. Descomprimir el archivo en "Documents".
+### 3. Descomprimir el archivo (de preferencia en "Documents").
+Aunque puede ser en cualquier lugar que desees, se usará "Documents" para este ejemplo.
+
 ### 4. Abrir la terminal 
 Se puede usar el buscador Spotlight escribiendo "terminal"
 
