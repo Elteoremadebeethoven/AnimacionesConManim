@@ -12,7 +12,7 @@ Ver video tutorial en YouTube.
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarManim.gif" /></p>
 
 3 Descomprimir el archivo en "Documents".
-* Abrir la terminal (se puede usar el buscador Spotlight escribiendo "terminal").
+4 Abrir la terminal (se puede usar el buscador Spotlight escribiendo "terminal").
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/terminal.png" /></p>
 
