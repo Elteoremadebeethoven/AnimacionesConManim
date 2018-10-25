@@ -1,6 +1,13 @@
 # Instación en GNU/Linux
 
-Instalación de LaTeX:
+## Descargar Manim 
+
+*Ir al [repositorio oficial](https://github.com/3b1b/manim), click en "Clone or download" y luego click en "Download ZIP".
+*Descomprimir carpeta manim-master preferentemente en el directorio principal y cambiar nombre de la carpeta a "manim".
+
+<p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/manimDescarga.png" /></p>
+
+## Instalación de LaTeX:
 
 ```sh
 $ sudo apt-get install texlive-full
