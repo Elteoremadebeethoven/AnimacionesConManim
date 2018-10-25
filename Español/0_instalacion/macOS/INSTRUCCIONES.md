@@ -26,7 +26,7 @@ Ir a la página oficial de [Python](https://www.python.org/), a la zona de desca
 ## Instalar pip3
 Ir a la página oficial de [pip](https://pip.pypa.io/en/stable/installing/), ir al archivo get-pip.py, copiar el texto en un documento de texto plano y guardar como get_pip.py en Documents.
 
-Posteriormente moverse a la carpeta Documents usando la terminal con el comando:
+Posteriormente moverse a la carpeta Documents usando la terminal con el comando "cd Documents":
 
 ```sh
 MacPro-de-TB: ~ Alex$ cd Documents
