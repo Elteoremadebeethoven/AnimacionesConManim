@@ -47,7 +47,7 @@ por la dirección de una carpeta dedicada los videos de manim.
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/nom.png" /></p>
 
-Recomiendo que sea una carpeta que esté en el directorio principal, por ejemplo "/vmanim".
+Recomiendo que sea una carpeta que esté en el directorio principal, por ejemplo "vmanim".
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/carp.png" /></p>
 
