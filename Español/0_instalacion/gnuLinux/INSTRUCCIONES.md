@@ -47,6 +47,14 @@ $ pip3 install pycairo
 ```
 
 ## Instalación de requerimientos:
+Moverse a la carpeta de manim usando
+
+```sh
+~$ cd manim
+~/manim$
+```
+
+Luego escribir:
 
 ```sh
 ~/manim$ python3 -m pip install -r requirements.txt
