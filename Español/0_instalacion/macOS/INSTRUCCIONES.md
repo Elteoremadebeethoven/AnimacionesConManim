@@ -16,6 +16,8 @@ Click en "Clone or download" y luego click en "Download ZIP".
 ### 3. Descomprimir el archivo (de preferencia en "Documents").
 Aunque puede ser en cualquier lugar que desees, se usará "Documents" para este ejemplo.
 
+<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/pd.png" /></p>
+
 ### 4. Modificar el archivo constants.py
 Abrir el archivo constants.py en la carpeta manim-master usando un editor de texto y cambiar el código que dice "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder" por la dirección de otra carpeta dedicada a los archivos de Manim, yo recomiendo usar 
 
