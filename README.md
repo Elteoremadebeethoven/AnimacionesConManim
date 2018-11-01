@@ -18,7 +18,7 @@
 14. Sincronizar animaciones con funciones/YouTube/Escenas
 
 Extras:
-* [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube
+* [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube/[Escenas](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/extras/formulas_tex/ESCENA.md)
 * Cómo añadir más tipos de fuentes (y otras paqueterías)
 * Personalizar colores
 * Más efectos en textos
