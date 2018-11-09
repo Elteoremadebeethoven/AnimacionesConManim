@@ -131,7 +131,7 @@ Agrega al arreglo "excepcion" los elementos que están vacios y vuelve a compila
 <p align="center"><img src ="/Español/extras/formulas_tex/gifs/Paso2.png" /></p>
 
 ## Posibles errores
-En caso de que sin querer agregues un elemento de más éste aparecerá en rojo indicando que incluiste en el arreglo de "excepcion", en este ejemplo eliminaremos la linea de quebrados (elemento 9):
+En caso de que sin querer agregues un elemento de más éste aparecerá en rojo indicando que lo incluiste en el arreglo de "excepcion", en este ejemplo eliminaremos la linea de quebrados (elemento 9):
 ```python3
 		excepcion=[1,2,6,7,11,9]
 ```
