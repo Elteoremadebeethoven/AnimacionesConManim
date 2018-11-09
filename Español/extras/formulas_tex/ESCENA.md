@@ -97,7 +97,7 @@ class Formula(Scene):
 '''
 class Formula_(Scene):
 	def construct(self):
-		formula=TexMobject(*formulas[])
+		formula=TexMobject("")
 		excepcion=[]
 		escala=2.5
 		escala_inversa=0.5
@@ -106,6 +106,9 @@ class Formula_(Scene):
 		imprimir_formula_paso_2(self,formula,escala,escala_inversa,direccion,excepcion,separacion)
 #'''
 ```
+
+<p align="center"><img src ="/Español/extras/formulas_tex/gifs/Paso0.png" /></p>
+
 ## Paso 2
 Modifica 
 ```
@@ -116,5 +119,15 @@ por
 imprimir_formula_paso_2
 ```
 y vuelve a compilarlo.
+
+<p align="center"><img src ="/Español/extras/formulas_tex/gifs/Paso1.png" /></p>
+
 ## Paso 3
 Agrega al arreglo "excepcion" los elementos que están vacios y vuelve a compilar.
+
+<p align="center"><img src ="/Español/extras/formulas_tex/gifs/Paso2.png" /></p>
+
+## Posibles errores
+En caso de que sin querer agregues un elemento de más éste aparecerá en rojo indicando que incluiste en el arreglo de "excepciones", en este ejemplo eliminaremos la linea de quebrados (elemento 9).
+
+<p align="center"><img src ="/Español/extras/formulas_tex/gifs/Paso_error.png" /></p>
