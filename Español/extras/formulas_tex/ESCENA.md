@@ -29,8 +29,8 @@ class ContadorFormulas(Scene):
 <p align="center"><img src ="/Español/extras/formulas_tex/gifs/ContadorFormulas.gif" /></p>
 
 
-#Contador en un sólo frame
-##Paso 1:
+# Contador en un sólo frame
+## Paso 1:
 Corrobora que la fórmula sea correcta, en este caso es:
 ```latex
 \lim_{x\to\infty}{1\over x}=0
