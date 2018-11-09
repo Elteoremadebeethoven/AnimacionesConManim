@@ -4,6 +4,11 @@ Corrobora que la fórmula sea correcta, en este caso es:
 \lim_{x\to\infty}{1\over x}=0
 ```
 
+Exportala en la terminal usando
+```sh
+python3 extract_scene.py -g contador_formulas.py Formula
+```
+
 ```python3
 from big_ol_pile_of_manim_imports import *
 
@@ -62,10 +67,6 @@ class Formula(Scene):
 		imprimir_formula_paso_1(self,formula,escala,escala_inversa,direccion,excepcion,separacion)
 ```
 
-Exportala en la terminal usando
-```sh
-python extract_scene.py -g contador_formulas.py Formula
-```
 esto te creará una carpeta con todos los frames de la animación, cada frame corresponderá a un elemento de la fórmula:
 
 
