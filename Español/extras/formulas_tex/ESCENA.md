@@ -83,7 +83,7 @@ python extract_scene.py -s contador_formulas.py Formula
 <p align="center"><img src ="/Español/extras/formulas_tex/gifs/Paso0.png" /></p>
 
 ## Paso 2
-Modifica 
+En la clase "Formula" modifica (NO EN "def imprimir_formula_paso_1" )
 ```
 imprimir_formula_paso_1
 ```
