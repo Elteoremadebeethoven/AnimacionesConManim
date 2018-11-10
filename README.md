@@ -77,4 +77,3 @@ class HelloWorld(Scene):
 
 Peso total aproximado: 8 GB
 
-<p align="center"><img src ="/video.gif" /></p>
