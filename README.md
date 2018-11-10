@@ -50,7 +50,7 @@ No, con 512 MB de Ram y un procesador Intel Core Duo (o similar) es más que suf
 * Se puede usar en computadoras antiguas.
 * Al ser de código abierto es completamente personalizable al gusto del usuario.
 * Constantemente se está mejorando ya que nuevos usuarios tabajan en él a través de su repositorio oficial en [GitHub](https://github.com/3b1b/manim).
-* Los archivos de video son de muy alta calidad y muy ligeros.
+* Los archivos de video son de muy alta calidad y ligeros.
 * Las fórmulas son creadas usando comandos TeX, por lo que son de calidad profesional (en lo que respecta a la comunidad científica).
 * En caso de no tener conocimientos de programación, es una buena herramienta para empezar a aprender Python 3 y LaTeX.
 ### Desventajas:
