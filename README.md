@@ -8,14 +8,8 @@
 4. [Herramientas visuales (PDF)](https://drive.google.com/open?id=15hk52wgaR4MeDZSvo8LlgbeWe6K6EXY7)/YouTube/[Escenas](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/4_herramientas_visuales/ESCENAS.md)
 5. Introducción a las gráficas/YouTube/[Escenas](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/5_introducci%C3%B3n_gr%C3%A1ficas/ESCENAS.md)
 6. Textos como arreglos de dos dimensiones/YouTube/[Escenas](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/6_texto_arreglo_2D/ESCENAS.md)
-7. Rotación de objetos/YouTube/Escenas
-8. Matrices/YouTube/Escenas
-9. Planos/YouTube/Escenas
-10. Graficar funciones por partes/YouTube/Escenas
-11. Animaciones de area bajo la curva/YouTube/Escenas
-12. Introducción a las fórmulas químicas/YouTube/Escenas
-13. Fórmulas desarrolladas (Química orgánica)/YouTube/Escenas
-14. Sincronizar animaciones con funciones/YouTube/Escenas
+7. Adición de imágenes y SVGs/YouTube/Escenas
+8. Escenas en 3D/YouTube/Escenas
 
 Extras:
 * [Fórmulas en TeX (PDF)](https://drive.google.com/open?id=1sPksk698UezNpYn7piEuGEwIqJd8TZMd)/YouTube/[Escenas](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/extras/formulas_tex/ESCENA.md)
