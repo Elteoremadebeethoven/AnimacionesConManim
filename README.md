@@ -61,13 +61,13 @@ class HelloWorld(Scene):
 <p align="center"><img src ="/HelloWorld.gif" /></p>
 
 ## Requerimientos
-* Python 3.5 (o superior)
-* pip3 (para instalar la lista de requirements.txt)
-* pycairo (suele dar problemas en la instalación de requirements.txt por lo que es recomendable instalarla antes)
-* ffmpeg
+* Python 3.7
+* pip (para instalar la lista de requirements.txt)
+* Pycairo (suele dar problemas en la instalación de requirements.txt por lo que es recomendable instalarla antes)
+* FFmpeg
 * LaTeX (Miktex para Windows y TexLive para GNU/Linux o Mac) completo
-* sox
+* Sox
 * Requerimientos en la lista de requirements.txt
 
-Peso total aproximado: 8 GB
+Peso total aproximado: 5 GB (eliminando los instaladores)
 
