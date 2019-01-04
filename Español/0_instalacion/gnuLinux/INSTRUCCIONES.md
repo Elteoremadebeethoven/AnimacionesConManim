@@ -10,10 +10,7 @@ Ver video tutorial en YouTube.
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/manimDescarga.png" /></p>
 
-* Descomprimir carpeta manim-master preferentemente en el directorio principal y cambiar nombre de la carpeta a "manim".
-* Crear otra carpeta (preferentemente en el directorio principal) dedicada a los videos de Manim, por ejemplo "vmanim".
-
-<p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/carp.png" /></p>
+* Descomprimir carpeta manim-master preferentemente en el directorio principal.
 
 ### 2. Modificar el archivo constants.py
 Cambiar el código del archivo constants.py que está en la carpeta de "manim", en la linea que dice:
@@ -51,12 +48,13 @@ $ sudo apt-get install sox
 
 ```sh
 $ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
+$ python3 -m pip install readline
 ```
 
 ### Instalación de pycairo:
 
 ```sh
-$ pip3 install pycairo
+$ python3 -m pip install pycairo
 ```
 
 ## Instalación de requerimientos:
@@ -78,7 +76,7 @@ Luego escribir:
 Para ejecutar Manim por primera vez hay que ir a la carpeta de manim y escribir:
 
 ```sh
-~/manim$ python3 extract_scene.py example_scenes.py SquareToCircle -pl
+~/manim$ python3 -m manim example_scenes.py SquareToCircle -pl
 ```
 
 Ese código debería generar algo como esto:
@@ -86,15 +84,4 @@ Ese código debería generar algo como esto:
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/compilacion.gif" /></p>
 
 # Almacenamiento
-
-El video se almacenará ya sea en la misma carpeta de "manim" (en una subcarpeta que se va a llamar igual al archivo .py) o bien en la subcarpeta "animations" que estará dentro de la carpeta que definiste en constants.py (que en nuestro ejemplo es "vmanim"). Para el ejemplo de "SquareToCircle" el video estará ya sea en
-
-```
-~/manim/example_scenes/SquareToCircle/420p15
-```
-o en 
-```
-~/vmanim/example_scenes/animations/SquareToCircle/420p15
-```
-
-El 420p15 se refiere a la calidad del video a la que fue exportado. Dependerá de la versión de manim que descargaste el lugar donde se guarde el archivo.
+Al ejecutar manim por primera vez se crearà una carpeta llamada "media" y un archvio de texto "media_dir.txt". En la carpeta "media" se almacenaràn los videos por defecto, si deseas modificar la carpeta donde se exporten los videos tienes que escribir el directorio completo en el archivo "media_dir.txt".
