@@ -18,22 +18,6 @@ Aunque puede ser en cualquier lugar que desees, se usará "Documents" para este 
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/pd.png" /></p>
 
-### 4. Modificar el archivo constants.py
-Abrir el archivo constants.py en la carpeta manim-master usando un editor de texto y cambiar el código que dice "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder" por la dirección de otra carpeta dedicada a los archivos de Manim, yo recomiendo usar 
-
-```
-/Users/NombrePropietario/Movies
-```
-
-o símplemente 
-
-```
-Movies
-```
-Y guardar cambios.
-
-<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP7.gif" /></p>
-
 ### 5. Abrir la terminal 
 Se puede usar el buscador Spotlight escribiendo "terminal"
 
@@ -56,32 +40,14 @@ Ir a la página oficial de [Python](https://www.python.org/), a la zona de desca
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP3.gif" /></p>
 
 ### Instalar pip3
-Ir a la página oficial de [pip](https://pip.pypa.io/en/stable/installing/), ir al archivo get-pip.py, copiar el texto en un documento de texto plano y guardar como get_pip.py en Documents.
-
-Posteriormente moverse a la carpeta Documents usando la terminal con el comando "cd Documents":
+Abrir la terminal y ejecutar:
 
 ```sh
-MacPro-de-TB: ~ Alex$ cd Documents
-MacPro-de-TB: Documents Alex$
+$ mkdir py_pip
+$ cd py_pip
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ python3 get-pip.py
 ```
-
-Para corroborar que el archivo se encuentra ahí hay que escribir escribir "ls":
-
-```sh
-MacPro-de-TB: Documents Alex$ ls
-...
-...
-get_pip.py
-...
-...
-```
-Una vez corroborada la ubicación del archivo lo compilamos usando "python3 get_pip.py":
-```sh
-MacPro-de-TB: Documents Alex$ python3 get_pip.py
-```
-Y continuar con la instalación.
-
-<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP4.gif" /></p>
 
 ### Instalar paqueterías usando Homebrew
 Copiar y pegar cada uno de los siguientes comandos a la terminal:
@@ -131,7 +97,7 @@ Y continuar con la instalación
 Con la terminal posicionada en la carpeta manim-master copiar y pegar el siguiente código:
 
 ```sh
-python3 extract_scene.py example_scenes.py WriteStuff -pl
+python3 -m manim example_scenes.py WriteStuff -pl
 ```
 
 Esto se deberá ver como:
@@ -139,16 +105,4 @@ Esto se deberá ver como:
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP8.gif" /></p>
 
 # Almacenamiento
-El video se almacenará ya sea en la misma carpeta de "manim-master" (en una subcarpeta que se va a llamar igual al archivo .py) o bien en la subcarpeta "animations" que estará dentro de la carpeta que definiste en constants.py (que en nuestro ejemplo es "Movies"). Para el ejemplo de "WriteStuff" el video estará ya sea en
-
-```
-manim-master/example_scenes/WriteStuff/420p15
-```
-o en 
-```
-Movies/animations/example_scenes/WriteStuff/420p15
-```
-
-El 420p15 se refiere a la calidad del video a la que fue exportado. Dependerá de la versión de manim que descargaste el lugar donde se guarde el archivo.
-
-<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/almacenamiento.png" /></p>
+Al ejecutar manim por primera vez se crearà una carpeta llamada "media" y un archvio de texto "media_dir.txt". En la carpeta "media" se almacenaràn los videos por defecto, si deseas modificar la carpeta donde se exporten los videos tienes que escribir el directorio completo en el archivo "media_dir.txt".
