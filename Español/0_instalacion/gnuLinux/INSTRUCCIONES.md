@@ -52,17 +52,16 @@ $ python3 -m pip install pycairo
 ```
 
 ## Instalación de requerimientos:
-Moverse a la carpeta de manim usando
+Moverse a la carpeta de manim:
 
 ```sh
-~$ cd manim
-~/manim$
+~/manim-master$
 ```
 
 Luego escribir:
 
 ```sh
-~/manim$ python3 -m pip install -r requirements.txt
+~/manimmaster$ python3 -m pip install -r requirements.txt
 ```
 
 # Ejecución de Manim
@@ -70,7 +69,7 @@ Luego escribir:
 Para ejecutar Manim por primera vez hay que ir a la carpeta de manim y escribir:
 
 ```sh
-~/manim$ python3 -m manim example_scenes.py SquareToCircle -pl
+~/manim-master$ python3 -m manim example_scenes.py SquareToCircle -pl
 ```
 
 Ese código debería generar algo como esto:
