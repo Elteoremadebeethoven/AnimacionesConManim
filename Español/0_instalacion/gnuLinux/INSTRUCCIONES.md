@@ -24,7 +24,10 @@ $ sudo apt-get install texlive-full
 ### Instalación de pip3:
 
 ```sh
-$ sudo apt-get install python3-pip
+$ mkdir py_pip
+$ cd py_pip
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ python3 get-pip.py
 ```
 ### Instalación de ffmpeg:
 
