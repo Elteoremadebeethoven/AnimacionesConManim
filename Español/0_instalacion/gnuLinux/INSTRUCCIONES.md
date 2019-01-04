@@ -12,12 +12,6 @@ Ver video tutorial en YouTube.
 
 * Descomprimir carpeta manim-master preferentemente en el directorio principal.
 
-### 2. Modificar el archivo constants.py
-Cambiar el código del archivo constants.py que está en la carpeta de "manim", en la linea que dice:
-"Dropbox (3Blue1Brown)/3Blue1Brown Team Folder"
-por la dirección de la carpeta dedicada los videos de manim (en nuestro ejemplo es "vmanim"). 
-
-<p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/nom.png" /></p>
 
 ## Instalación usando la terminal:
 Abrir terminal y copiar los siguientes comandos.
