@@ -66,7 +66,7 @@ Moverse a la carpeta de manim:
 Luego escribir:
 
 ```sh
-~/manimmaster$ python3 -m pip install -r requirements.txt
+$ python3 -m pip install -r requirements.txt
 ```
 
 # Ejecución de Manim
@@ -74,7 +74,7 @@ Luego escribir:
 Para ejecutar Manim por primera vez hay que ir a la carpeta de manim y escribir:
 
 ```sh
-~/manim-master$ python3 -m manim example_scenes.py SquareToCircle -pl
+$ python3 -m manim example_scenes.py SquareToCircle -pl
 ```
 
 Ese código debería generar algo como esto:
