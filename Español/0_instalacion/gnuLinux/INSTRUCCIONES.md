@@ -24,8 +24,8 @@ $ sudo apt-get install texlive-full
 ### Instalación de pip3:
 
 ```sh
-$ mkdir py_pip
-$ cd py_pip
+$ mkdir pip
+$ cd pip
 $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 $ python3 get-pip.py
 ```
