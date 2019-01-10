@@ -46,7 +46,8 @@ $ sudo apt-get install sox
 
 ```sh
 $ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
-$ python3 -m pip install readline
+$ python3 -m pip install pyreadline
+$ python3 -m pip install pydub
 ```
 
 ### Instalación de pycairo:
