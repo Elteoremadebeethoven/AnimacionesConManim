@@ -16,10 +16,12 @@ En ```manimlib/mobject/coordinate_systems.py``` agregar en la linea 54.
 
 ## Modificar búsqueda de imágenes:
 ### Descarga las siguientes imágenes
-#### Imagen genérica .png
+#### Imagen genérica .png a ```media/designs/raster_images```
 
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.png" width="400" /></p>
 
-#### Imagen genérica .svg
+#### Imagen genérica .svg a ```media/designs/svg_images```
 
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.svg" width="400" /></p>
+
+Después mueve los tres archivos .svg de ```manimlib/files``` a ```media/designs/svg_images```
