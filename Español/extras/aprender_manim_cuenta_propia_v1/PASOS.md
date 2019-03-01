@@ -25,3 +25,11 @@ En ```manimlib/mobject/coordinate_systems.py``` agregar en la linea 54.
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.svg" width="400" /></p>
 
 Después mueve los tres archivos .svg de ```manimlib/files``` a ```media/designs/svg_images```
+
+#### Añade la siguiente linea en ```manimlib/mobject/svg/svg_mobject.py```
+
+```python3
+            os.path.join(SVG_IMAGE_DIR, "generic.svg")
+```
+
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/capt2.png" width="700" /></p>
