@@ -64,3 +64,12 @@ Código:
             if os.path.exists(path):
                 return path
 ```
+
+### 2.3 Abre ```manimlib/for_3b1b_videos/pi_creature.py``` y remplaza la parte seleccionada de la imagen izquierda por el código que está en la parte derecha.
+
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/capt4.png"/></p>
+
+Código:
+```python3
+                "PiCreatures_plain.svg"
+```
