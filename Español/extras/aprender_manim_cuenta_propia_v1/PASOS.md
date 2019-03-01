@@ -89,10 +89,18 @@ Códigos:
             SVGMobject.__init__(self,file_name="Bubbles_speech" ,**kwargs)
 ```
 
-### 3 Abre ```manimlib/once_useful_constructs/light.py``` y en la linea 21 añade:
+### 3. Abre ```manimlib/once_useful_constructs/light.py``` y en la linea 21 añade:
 
 ```python3
 from manimlib.utils.space_ops import get_norm
 ```
 
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/capt6.png" width="700"/></p>
+
+### 4. Abre ```manimlib/scene/three_d_scene.py``` y cambia la linea 149 por:
+
+```python3
+        if self.camera_config["pixel_width"] == PRODUCTION_QUALITY_CAMERA_CONFIG["pixel_width"]:
+```
+
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/capt7.png"/></p>
