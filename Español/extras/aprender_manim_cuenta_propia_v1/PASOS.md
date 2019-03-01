@@ -1,7 +1,20 @@
 # Cómo aprender Manim por cuenta propia.
 Este tutorial funciona con la versión de [manim del 3 de Febrero del 2019](https://github.com/3b1b/manim/tree/3b088b12843b7a4459fe71eba96b70edafb7aa78). 
-## 1. Modificar los siguientes archivos:
-En ```manimlib/mobject/coordinate_systems.py``` agregar en la linea 54.
+
+## 1. Descarga las siguientes imágenes
+### 1.1 Descarga esta imagen como generic.png en ```media/designs/raster_images```
+
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.png" width="400" /></p>
+
+### 1.2 Descarga esta imagen como generic.svg en ```media/designs/svg_images```
+
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.svg" width="400" /></p>
+
+### 1.3 Después mueve los tres archivos .svg de ```manimlib/files``` a ```media/designs/svg_images```
+
+## 2. Modificar los siguientes archivos:
+
+### 2.1 En ```manimlib/mobject/coordinate_systems.py``` agrega en la linea 54:
 
 ```python3
     def get_axis(self, min_val, max_val, axis_config):
@@ -14,17 +27,6 @@ En ```manimlib/mobject/coordinate_systems.py``` agregar en la linea 54.
 ```
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/coord_syst.png" width="700" /></p>
 
-## 2. Modificar búsqueda de imágenes:
-### 2.1 Descarga las siguientes imágenes
-#### Descarga esta imagen como generic.png en ```media/designs/raster_images```
-
-<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.png" width="400" /></p>
-
-#### Descarga esta imagen como generic.svg en ```media/designs/svg_images```
-
-<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.svg" width="400" /></p>
-
-#### Después mueve los tres archivos .svg de ```manimlib/files``` a ```media/designs/svg_images```
 
 ### 2.2 Añade la siguiente linea en ```manimlib/mobject/svg/svg_mobject.py```
 
