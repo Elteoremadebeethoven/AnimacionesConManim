@@ -15,5 +15,5 @@ En ```manimlib/mobject/coordinate_systems.py``` agregar en la linea 54.
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/coord_syst.png" width="700" /></p>
 
 ## Descarga los siguientes archivos:
-<p align="left"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.png" width="400" /></p>
+<img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.png" width="400" />
 <p align="right"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.svg" width="400" /></p>
