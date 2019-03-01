@@ -37,7 +37,7 @@ Después mueve los tres archivos .svg de ```manimlib/files``` a ```media/designs
 ### 2.3 Abre ```manimlib/mobject/types/image_mobject.py``` y remplaza la parte seleccionada de la imagen izquierda por el código que está en la parte derecha.
 
 
-<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/capt3.png"/></p>
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/cap3.png"/></p>
 
 Código:
 ```python3
