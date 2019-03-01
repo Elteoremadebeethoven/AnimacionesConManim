@@ -16,11 +16,11 @@ En ```manimlib/mobject/coordinate_systems.py``` agregar en la linea 54.
 
 ## 2. Modificar búsqueda de imágenes:
 ### 2.1 Descarga las siguientes imágenes
-#### Imagen genérica .png a ```media/designs/raster_images```
+#### Descarga esta imagen como generic.png en ```media/designs/raster_images```
 
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.png" width="400" /></p>
 
-#### Imagen genérica .svg a ```media/designs/svg_images```
+#### Descarga esta imagen como generic.svg en ```media/designs/svg_images```
 
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.svg" width="400" /></p>
 
@@ -86,3 +86,11 @@ Códigos:
 ```python3
             SVGMobject.__init__(self,file_name="Bubbles_speech" ,**kwargs)
 ```
+
+### 3 Abre ```manimlib/once_useful_constructs/light.py``` y en la linea 21 añade:
+
+```python3
+from manimlib.utils.space_ops import get_norm
+```
+
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/capt6.png" width="700"/></p>
