@@ -1,5 +1,5 @@
 # Cómo aprender Manim por cuenta propia.
-Este tutorial funciona con la versión de [manim](https://github.com/3b1b/manim/tree/3b088b12843b7a4459fe71eba96b70edafb7aa78) del 3 de Febrero del 2019. 
+Este tutorial funciona con la versión de [manim del 3 de Febrero del 2019](https://github.com/3b1b/manim/tree/3b088b12843b7a4459fe71eba96b70edafb7aa78). 
 ## Modificar los siguientes archivos:
 En ```manimlib/mobject/coordinate_systems.py``` agregar en la linea 54.
 
