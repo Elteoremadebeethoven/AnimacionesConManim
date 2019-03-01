@@ -24,7 +24,7 @@ En ```manimlib/mobject/coordinate_systems.py``` agregar en la linea 54.
 
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/archivos/generic.svg" width="400" /></p>
 
-Después mueve los tres archivos .svg de ```manimlib/files``` a ```media/designs/svg_images```
+#### Después mueve los tres archivos .svg de ```manimlib/files``` a ```media/designs/svg_images```
 
 ### 2.2 Añade la siguiente linea en ```manimlib/mobject/svg/svg_mobject.py```
 
@@ -65,11 +65,24 @@ Código:
                 return path
 ```
 
-### 2.3 Abre ```manimlib/for_3b1b_videos/pi_creature.py``` y remplaza la parte seleccionada de la imagen izquierda por el código que está en la parte derecha.
+### 2.4 Abre ```manimlib/for_3b1b_videos/pi_creature.py``` y remplaza la parte seleccionada de la imagen izquierda por el código que está en la parte derecha.
 
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/capt4.png"/></p>
 
 Código:
 ```python3
                 "PiCreatures_plain.svg"
+```
+
+### 2.5 Abre ```manimlib/mobject/svg/drawings.py``` y remplaza las partes seleccionadas de la imagen izquierda por el código que está en la parte derecha.
+
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/capt5.png"/></p>
+
+Códigos:
+```python3
+        "file_name": "Bubbles_speech.svg",
+```
+------------------------------------
+```python3
+            SVGMobject.__init__(self,file_name="Bubbles_speech" ,**kwargs)
 ```
