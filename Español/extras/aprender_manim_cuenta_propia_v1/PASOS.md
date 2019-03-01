@@ -12,3 +12,4 @@ En ```manimlib/mobject/coordinate_systems.py``` agregar en la linea 54.
         ])
         return NumberLine(**new_config)
 ```
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/coord_syst.png" /></p>
