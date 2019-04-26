@@ -64,8 +64,8 @@ Click en "Clone or download" y luego click en "Download ZIP".
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarManim.gif" /></p>
 
-### Descomprimir el archivo (de preferencia en "Documents").
-Aunque puede ser en cualquier lugar que desees, se usará "Documents" para este ejemplo.
+### Descomprimir el archivo (de preferencia en "Documents" o "Downloads").
+Aunque puede ser en cualquier lugar que desees, siempre y cuando el nombre de la carpeta no use espacios. Se usará "Documents" para este ejemplo.
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/pd.png" /></p>
 
