@@ -76,13 +76,7 @@ brew install pkg-config
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP5.gif" /></p>
 
 ### Instalar lista requirements.txt
-Dentro de la carpeta "Documents" nos desplazamos a la carpeta de "manim-master" usando la terminal con el comando:
-
-```sh
-cd manim-master
-```
-
-Luego copiar y pegar los siguientes comandos:
+Nos movemos a la carpeta de manim con la terminal y luego copiamos y pegamos los siguientes comandos:
 
 ```sh
 python3 -m pip install -r requirements.txt
