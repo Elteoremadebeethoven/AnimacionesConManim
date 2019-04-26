@@ -2,28 +2,13 @@
 
 Ver video tutorial en YouTube.
 
-## Pasos previos a la instalción
-### 1. Instalar algún editor de texto plano 
-Recomiendo SublimteText, ver [video de instalación](https://www.youtube.com/watch?v=qqlLQ-5jH0c).
+## Instalación de Manim
 
-<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarSublimeText.gif" /></p>
-
-### 2. Descargar Manim del [repositorio oficial](https://github.com/3b1b/manim)
-Click en "Clone or download" y luego click en "Download ZIP".
-
-<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarManim.gif" /></p>
-
-### 3. Descomprimir el archivo (de preferencia en "Documents").
-Aunque puede ser en cualquier lugar que desees, se usará "Documents" para este ejemplo.
-
-<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/pd.png" /></p>
-
-### 5. Abrir la terminal 
+### Abrir la terminal 
 Se puede usar el buscador Spotlight escribiendo "terminal"
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/terminal.png" /></p>
 
-## Instalación de Manim
 ### Instalar Homebrew
 Copiar el código de la página oficial de [Homebrew](https://brew.sh/index_es) y pegarlo en la terminal (y dar enter).
 
@@ -74,6 +59,16 @@ brew install py2cairo
 brew install pkg-config
 ```
 
+### Descargar Manim del [repositorio oficial](https://github.com/3b1b/manim)
+Click en "Clone or download" y luego click en "Download ZIP".
+
+<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarManim.gif" /></p>
+
+### Descomprimir el archivo (de preferencia en "Documents").
+Aunque puede ser en cualquier lugar que desees, se usará "Documents" para este ejemplo.
+
+<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/pd.png" /></p>
+
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP5.gif" /></p>
 
 ### Instalar lista requirements.txt
@@ -101,3 +96,8 @@ Esto se deberá ver como:
 
 # Almacenamiento
 Al ejecutar manim por primera vez se crearà una carpeta llamada "media" y un archvio de texto "media_dir.txt". En la carpeta "media" se almacenaràn los videos por defecto, si deseas modificar la carpeta donde se exporten los videos tienes que escribir el directorio completo en el archivo "media_dir.txt".
+
+# Recomendación final: Instalar algún editor de texto plano 
+Recomiendo SublimteText, ver [video de instalación](https://www.youtube.com/watch?v=qqlLQ-5jH0c).
+
+<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarSublimeText.gif" /></p>
