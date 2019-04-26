@@ -24,8 +24,8 @@ Ir a la página oficial de [Python](https://www.python.org/), a la zona de desca
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP3.gif" /></p>
 
-### Instalar pip3
-Abrir la terminal y ejecutar:
+### Instalar PIP
+Ejecutar en la termimal los siguientes comandos:
 
 ```sh
 brew install curl
@@ -59,7 +59,9 @@ brew install py2cairo
 brew install pkg-config
 ```
 
-### Descargar Manim del [repositorio oficial](https://github.com/3b1b/manim)
+<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP5.gif" /></p>
+
+### Descargar Manim del [repositorio oficial actual](https://github.com/3b1b/manim), o de [repositorio del 3/Febrero/2019](https://github.com/3b1b/manim/tree/3b088b12843b7a4459fe71eba96b70edafb7aa78).
 Click en "Clone or download" y luego click en "Download ZIP".
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/DescargarManim.gif" /></p>
@@ -68,8 +70,6 @@ Click en "Clone or download" y luego click en "Download ZIP".
 Aunque puede ser en cualquier lugar que desees, siempre y cuando el nombre de la carpeta no use espacios. Se usará "Documents" para este ejemplo.
 
 <p align="center"><img src ="/Español/0_instalacion/macOS/gifs/pd.png" /></p>
-
-<p align="center"><img src ="/Español/0_instalacion/macOS/gifs/MacP5.gif" /></p>
 
 ### Instalar lista requirements.txt
 Nos movemos a la carpeta de manim con la terminal y luego copiamos y pegamos los siguientes comandos:
