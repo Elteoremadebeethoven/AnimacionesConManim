@@ -43,8 +43,8 @@ Ir a la página oficial de [Python](https://www.python.org/), a la zona de desca
 Abrir la terminal y ejecutar:
 
 ```sh
-$ mkdir py_pip
-$ cd py_pip
+$ mkdir ManimInstall
+$ cd ManimInstall
 $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 $ python3 get-pip.py
 ```
@@ -79,14 +79,14 @@ brew install pkg-config
 Dentro de la carpeta "Documents" nos desplazamos a la carpeta de "manim-master" usando la terminal con el comando:
 
 ```sh
-MacPro-de-TB: Documents Alex$ cd manim-master
-MacPro-de-TB: manim-master Alex$
+cd manim-master
 ```
 
-Luego copiar y pegar el siguiente comando:
+Luego copiar y pegar los siguientes comandos:
 
 ```sh
 python3 -m pip install -r requirements.txt
+python3 -m pip install pyreadline
 ```
 Y continuar con la instalación
 
