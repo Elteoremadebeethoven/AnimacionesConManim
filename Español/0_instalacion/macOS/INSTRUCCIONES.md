@@ -43,10 +43,11 @@ Ir a la página oficial de [Python](https://www.python.org/), a la zona de desca
 Abrir la terminal y ejecutar:
 
 ```sh
-$ mkdir ManimInstall
-$ cd ManimInstall
-$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-$ python3 get-pip.py
+brew install curl
+mkdir ManimInstall
+cd ManimInstall
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
 ```
 
 ### Instalar paqueterías usando Homebrew
