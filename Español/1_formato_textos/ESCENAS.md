@@ -5,6 +5,42 @@ from big_ol_pile_of_manim_imports import *
 ```
 como primera linea.
 
+# Configuración de LaTeX
+Para los hispanohablantes la configuración de los símbolos son especiales, ya que usamos la "ñ" y los acentos. Así que hay que cambiar la configuración.
+
+## Para los usarios de Windows
+Hay que ir a manimlib/tex_template.txt, lo abrimos con un editor de texto y cambiamos la linea 3:
+
+```latex
+\usepackage[english]{babel}
+```
+
+por
+
+```latex
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+```
+
+En caso de que aún así nos genere un error entonces en lugar de ```latin1``` escribimos ```utf8```.
+
+## Para los usarios de Mac y Linux
+Hay que ir a manimlib/tex_template.txt, lo abrimos con un editor de texto y cambiamos la linea 3:
+
+```latex
+\usepackage[english]{babel}
+```
+
+por
+
+```latex
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+```
+
+En caso de que aún así nos genere un error entonces en lugar de ```utf8``` escribimos ```latin1```.
+
+
 ## Programas
 
 ### 
