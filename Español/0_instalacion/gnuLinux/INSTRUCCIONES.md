@@ -17,12 +17,41 @@ Ver video tutorial en [YouTube](https://www.youtube.com/watch?v=dwiBKFTJWY8).
 Abrir terminal y copiar los siguientes comandos.
 ### Instalación de LaTeX:
 
+### Install de LaTeX:
+Debian:
 ```sh
 $ sudo apt-get install texlive-full
 ```
+Arch:
+```sh
+$ sudo pacman -S texlive-most
+```
+Fedora:
+```sh
+# yum -y install texlive-collection-latexextra
+```
+### Instalación de Python3.7
+Debian:
+```sh
+$ sudo apt-get install python3.7-minimal
+```
 
-### Instalación de pip3:
+Arch: Siempre está al día.
 
+Fedora:
+```sh
+# yum install gcc openssl-devel bzip2-devel libffi-devel
+# cd /usr/src
+# wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz
+# tar xzf Python-3.7.3.tgz
+# cd Python-3.7.3
+# ./configure --enable-optimizations
+# make altinstall
+# rm /usr/src/Python-3.7.3.tgz
+```
+
+### Instalación de pip:
+Todas las distros:
 ```sh
 $ mkdir pip
 $ cd pip
@@ -31,16 +60,32 @@ $ python3 get-pip.py
 ```
 
 ### Instalación de ffmpeg:
-
+Debian
 ```sh
 $ sudo apt-get install ffmpeg
 ```
+Arch-Linux:
+```sh
+$ sudo pacman -S ffmpeg
+```
+Fedora:
+```sh
+$ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+$ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+$ sudo dnf install ffmpeg ffmpeg-devel
+```
 
 ### Instalación de sox:
-
+Debian
 ```sh
 $ sudo apt-get install sox
 ```
+Arch-Linux (with AUR):
+```sh
+$ aurman -S sox
+```
+Fedora:
+Descárgalo de: https://pkgs.org/download/sox
 
 ### Instalación de paqueterías previas para instalar pycairo:
 
