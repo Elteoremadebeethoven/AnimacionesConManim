@@ -1,6 +1,6 @@
 # Instalación en Windows
 
-La instalación en Windows es particularmente elaborada, por lo que recomiendo ver el video tutorial de instalación en YouTube, pero aquí se esbozarán los pasos para la gente que tenga más conocimientos en computación.
+La instalación en Windows es particularmente elaborada, por lo que recomiendo ver el [video tutorial](https://www.youtube.com/watch?v=rifiBLkVkos) de instalación en YouTube, pero aquí se esbozarán los pasos para la gente que tenga más conocimientos en computación.
 
 En caso de haber concluido todos los pasos y no lograr compilar los archivos es recomendable instalar una versión ligera de GNU/Linux (como [Lubuntu](https://lubuntu.net/downloads/)) en una máquina viritual y realizar el proceso de instalación de [GNU/Linux](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/0_instalacion/gnuLinux/INSTRUCCIONES.md). La única desventaja será que este proceso necesitará unos 10 GB de espacio en tu disco duro.
 
