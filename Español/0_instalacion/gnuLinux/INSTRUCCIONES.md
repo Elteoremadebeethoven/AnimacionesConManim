@@ -87,13 +87,15 @@ Fedora:
 Descárgalo de: https://pkgs.org/download/sox
 
 ### Instalación de paqueterías previas para instalar pycairo:
-
+Para todas las distros:
 ```sh
-$ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
 $ python3.7 -m pip install pyreadline
 $ python3.7 -m pip install pydub
 ```
-
+Además, para las basadas en Debian:
+```sh
+$ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
+```
 
 ## Instalación de requerimientos:
 Moverse a la carpeta de manim:
