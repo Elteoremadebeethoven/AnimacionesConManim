@@ -15,9 +15,8 @@ Ver video tutorial en [YouTube](https://www.youtube.com/watch?v=dwiBKFTJWY8).
 
 ## Instalación usando la terminal:
 Abrir terminal y copiar los siguientes comandos.
-### Instalación de LaTeX:
 
-### Install de LaTeX:
+### Instalación de LaTeX:
 Debian:
 ```sh
 $ sudo apt-get install texlive-full
@@ -91,8 +90,8 @@ Descárgalo de: https://pkgs.org/download/sox
 
 ```sh
 $ sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev python3-dev libffi-dev
-$ python3 -m pip install pyreadline
-$ python3 -m pip install pydub
+$ python3.7 -m pip install pyreadline
+$ python3.7 -m pip install pydub
 ```
 
 
@@ -106,7 +105,7 @@ Moverse a la carpeta de manim:
 Luego escribir:
 
 ```sh
-$ python3 -m pip install -r requirements.txt
+$ python3.7 -m pip install -r requirements.txt
 ```
 
 # Ejecución de Manim
@@ -121,5 +120,3 @@ Ese código debería generar algo como esto:
 
 <p align="center"><img src ="/Español/0_instalacion/gnuLinux/gifs/compilacion.gif" /></p>
 
-# Almacenamiento
-Al ejecutar manim por primera vez se crearà una carpeta llamada "media" y un archvio de texto "media_dir.txt". En la carpeta "media" se almacenaràn los videos por defecto, si deseas modificar la carpeta donde se exporten los videos tienes que escribir el directorio completo en el archivo "media_dir.txt".
