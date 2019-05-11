@@ -50,11 +50,6 @@ $ python3 -m pip install pyreadline
 $ python3 -m pip install pydub
 ```
 
-### Instalación de pycairo:
-
-```sh
-$ python3 -m pip install pycairo
-```
 
 ## Instalación de requerimientos:
 Moverse a la carpeta de manim:
