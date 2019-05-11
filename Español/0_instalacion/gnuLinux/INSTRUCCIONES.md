@@ -115,7 +115,7 @@ $ python3.7 -m pip install -r requirements.txt
 Para ejecutar Manim por primera vez hay que ir a la carpeta de manim y escribir:
 
 ```sh
-$ python3 -m manim example_scenes.py SquareToCircle -pl
+$ python3.7 -m manim example_scenes.py SquareToCircle -pl
 ```
 
 Ese código debería generar algo como esto:
