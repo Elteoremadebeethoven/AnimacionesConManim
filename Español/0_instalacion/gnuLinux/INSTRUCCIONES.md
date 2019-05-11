@@ -1,6 +1,6 @@
 # Instación en GNU/Linux
 
-Ver video tutorial en YouTube.
+Ver video tutorial en [YouTube](https://www.youtube.com/watch?v=dwiBKFTJWY8).
 
 ## Pasos previos a la instalación
 
