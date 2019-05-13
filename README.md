@@ -1,7 +1,7 @@
 <p align="center"><img src ="/titulo.gif" /></p>
 
 ## Temas del curso (actualizando)
-## [Archivos del tutorial](https://drive.google.com/file/d/1XwxNMeh3LpL-ZO8tOifs-NOYHYGeus-x/view)
+## [Archivos del tutorial](https://drive.google.com/file/d/1O31Hk95q6D3Z6qWwkZcUW4fU9lLzJND2/view)
 ### Este tutorial está basado en la versión del [3 de febrero del 2019](https://github.com/3b1b/manim/tree/3b088b12843b7a4459fe71eba96b70edafb7aa78)
 
 0. Instalación en [Windows](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/0_instalacion/windows/INSTRUCCIONES.md), [GNU/Linux](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/0_instalacion/gnuLinux/INSTRUCCIONES.md) y [Mac](https://github.com/Elteoremadebeethoven/AnimacionesConManim/blob/master/Espa%C3%B1ol/0_instalacion/macOS/INSTRUCCIONES.md).
