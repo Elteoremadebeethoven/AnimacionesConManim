@@ -107,3 +107,23 @@ from manimlib.utils.space_ops import get_norm
 ```
 
 <p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/capt7.png"/></p>
+
+### 2.7 Abre ```manimlib/utils/sounds.py``` y realiza las modificaciones que se muestran:
+
+<p align="center"><img src ="/Español/extras/aprender_manim_cuenta_propia_v1/capturas/sounds.png"/></p>
+
+
+```python3
+# Agrega este codigo debajo de la linea 41
+def select_sound(sound_file_name):
+    try_sound=os.path.join(SOUND_DIR, sound_file_name)
+    if os.path.exists(try_sound):
+        return sound_file_name
+    else:
+        return "generic_sound"
+```
+
+```python3
+# Ubica el cursor al final de la linea 36, crea una nueva linea y pega lo siguiente:
+        select_sound(sound_file_name),
+```
