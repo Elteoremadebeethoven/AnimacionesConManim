@@ -12,6 +12,9 @@ Este tutorial funciona con la versión de [manim del 3 de Febrero del 2019](http
 
 ### 1.3 Después mueve los tres archivos .svg de ```manimlib/files``` a ```media/designs/svg_images```
 
+### 1.4 Descarga [este](https://drive.google.com/open?id=1V_LpJoidm2tAVVBusKaHlky2-MLehTuM) archivo de sonido y ponlo en ```media/designs/sounds```
+
+
 ## 2. Modificar los siguientes archivos:
 
 ### 2.1 En ```manimlib/mobject/coordinate_systems.py``` agrega en la linea 54:
